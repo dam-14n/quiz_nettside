@@ -1,10 +1,10 @@
 {
-  "gjett-landet": {
-    "title": "Gjett landet",
+  "flagg": {
+    "title": "Flagg",
     "description": "Test flaggkunnskap og se om du klarer å gjette riktig land.",
     "quizzes": [
       {
-        "name": "Gjett landet 1",
+        "name": "Flagg 1",
         "difficulty": "lett",
         "questions": [
           {
@@ -60,7 +60,7 @@
         ]
       },
       {
-        "name": "Gjett landet 2",
+        "name": "Flagg 2",
         "difficulty": "lett",
         "questions": [
           {
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "name": "Gjett landet 3",
+        "name": "Flagg 3",
         "difficulty": "middels",
         "questions": [
           {
@@ -172,7 +172,7 @@
         ]
       },
       {
-        "name": "Gjett landet 4",
+        "name": "Flagg 4",
         "difficulty": "vanskelig",
         "questions": [
           {
@@ -218,6 +218,62 @@
               "Somalia",
               "Salomonøyene",
               "Samoa"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Flagg 5",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hvilket land har flagget 🇪🇷?",
+            "options": [
+              "Eritrea",
+              "Etiopia",
+              "Ecuador",
+              "Eswatini"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land har flagget 🇿🇲?",
+            "options": [
+              "Zambia",
+              "Zimbabwe",
+              "Zaire",
+              "Namibia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land har flagget 🇰🇬?",
+            "options": [
+              "Kirgisistan",
+              "Kasakhstan",
+              "Tadsjikistan",
+              "Mongolia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land har flagget 🇸🇱?",
+            "options": [
+              "Sierra Leone",
+              "Slovenia",
+              "Slovakia",
+              "Surinam"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land har flagget 🇹🇲?",
+            "options": [
+              "Turkmenistan",
+              "Tyrkia",
+              "Tunis",
+              "Usbekistan"
             ],
             "answer_index": 0
           }
@@ -1045,34 +1101,34 @@
   },
   "gaming": {
     "title": "Gaming",
-    "description": "Spørsmål om videospill, konsoller og spillkultur.",
+    "description": "Spørsmål om videospill, konsoller, spillhistorie og kjente figurer.",
     "quizzes": [
       {
         "name": "Gaming 1",
         "difficulty": "middels",
         "questions": [
           {
-            "questionText": "Hva er det mest solgte videospillet gjennom tidene?",
+            "questionText": "Hvilket spill regnes vanligvis som det mest solgte videospillet gjennom tidene?",
             "options": [
               "Minecraft",
-              "FIFA 18",
-              "Call of Duty: Modern Warfare 3",
-              "Tetris"
+              "Tetris",
+              "GTA V",
+              "Wii Sports"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva var det første kommersielt suksessrike videospillet?",
+            "questionText": "Hvilket av disse spillene ble det første virkelig store kommersielle arkadesuksessen?",
             "options": [
               "Pong",
-              "Donkey Kong Country",
-              "Super Mario Bros",
-              "Spacewar"
+              "Space Invaders",
+              "Super Mario Bros.",
+              "Pac-Man"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva heter hovedpersonen i Legend of Zelda-serien?",
+            "questionText": "Hva heter helten du vanligvis spiller som i The Legend of Zelda-serien?",
             "options": [
               "Link",
               "Zelda",
@@ -1082,32 +1138,32 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket videospill dukket Mario, Nintendo-karakteren, opp i første gang?",
+            "questionText": "I hvilket spill dukket Mario opp for aller første gang?",
             "options": [
               "Donkey Kong",
-              "Super Mario Bros",
-              "Marios sementfabrikk",
-              "Mario Bros"
+              "Mario Bros.",
+              "Super Mario Bros.",
+              "Donkey Kong Jr."
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er navnet på den siste virtuelle virkelighetsenheten utviklet av Valve?",
+            "questionText": "Hva heter VR-headsettet som Valve lanserte i 2019?",
             "options": [
-              "Steam Frame",
+              "Valve Index",
               "Oculus Rift",
-              "Meta Quest",
-              "Valve VR"
+              "HTC Vive",
+              "Meta Quest 2"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er navnet på spillkonsollen som ble utgitt av Nintendo i 2006 og inneholdt bevegelseskontroller?",
+            "questionText": "Hva heter Nintendo-konsollen fra 2006 som ble kjent for bevegelseskontroller?",
             "options": [
               "Wii",
-              "Bryter",
+              "Nintendo Switch",
               "GameCube",
-              "DS"
+              "Nintendo DS"
             ],
             "answer_index": 0
           }
@@ -1118,7 +1174,7 @@
         "difficulty": "middels",
         "questions": [
           {
-            "questionText": "Hvilket selskap opprettet Mario-franchisen?",
+            "questionText": "Hvilket selskap står bak Mario-serien?",
             "options": [
               "Nintendo",
               "Sony",
@@ -1128,7 +1184,7 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva heter spillutvikleren som laget Half-Life, Portal og Counter-Strike?",
+            "questionText": "Hvilket spillselskap laget Half-Life, Portal og Counter-Strike?",
             "options": [
               "Valve",
               "Blizzard",
@@ -1138,7 +1194,7 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva er navnet på plattformspillserien som inneholder en rørlegger som redder en prinsesse fra en skilpadde-lignende skurk?",
+            "questionText": "Hvilken spillserie handler om en rørlegger som stadig må redde prinsesse Peach fra Bowser?",
             "options": [
               "Super Mario",
               "Sonic the Hedgehog",
@@ -1148,7 +1204,7 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hvor mange frittstående Grand Theft Auto-titler har blitt gitt ut?",
+            "questionText": "Hvor mange hovedspill finnes det i Grand Theft Auto-serien fram til og med GTA V?",
             "options": [
               "7",
               "5",
@@ -1225,51 +1281,54 @@
   },
   "roblox": {
     "title": "Roblox",
-    "description": "Alt om Roblox, fra historie og funksjoner til spill og community.",
+    "description": "Alt om Roblox, fra historie og utvikling til språk, verktøy og kultur.",
     "quizzes": [
       {
         "name": "Roblox 1",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hva var det opprinnelige navnet til Roblox?",
+            "questionText": "Hva het Roblox opprinnelig før navnet ble endret?",
             "options": [
               "DynaBlocks",
-              "Superblokker",
-              "XtraBlocks"
+              "BlockWorld",
+              "GoBlocks",
+              "BuilderLand"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er navnet på Roblox sin andre virtuelle valuta som har blitt fjernet siden 2016?",
+            "questionText": "Hva het den gamle Roblox-valutaen som ble fjernet i 2016?",
             "options": [
               "Tix",
-              "Builder Mynter",
-              "Ro-poeng"
+              "Tickets+",
+              "BloxCash",
+              "Builder Coins"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket program bruker du for å lage spill på Roblox?",
+            "questionText": "Hvilket program bruker man for å lage egne Roblox-opplevelser?",
             "options": [
               "Roblox Studio",
-              "Roblox spiller",
-              "Roblox Lag",
-              "Roblox Creator"
+              "Roblox Creator Hub",
+              "Roblox Player",
+              "Roblox Workshop"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Roblox sine private servere var tidligere kjent som hvilke av følgende?",
+            "questionText": "Hva ble private servere i Roblox tidligere kalt?",
             "options": [
               "VIP-servere",
-              "Personlige servere",
-              "Eksklusive servere"
+              "Pro-servere",
+              "Elite-servere",
+              "Friend-servere"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvem vant RB Battles sesong 1-mesterskapet?",
+            "questionText": "Hvem vant RB Battles sesong 1?",
             "options": [
               "KreekCraft",
               "Tofuu",
@@ -1285,16 +1344,17 @@
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hva er et annet navn for avatarbutikken?",
+            "questionText": "Hva ble avatarbutikken i Roblox tradisjonelt kalt?",
             "options": [
               "Katalog",
-              "Avatarskaper",
-              "Avatar Editor"
+              "Avatar Hub",
+              "Creator Shop",
+              "Wardrobe"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket programmeringsspråk må du bruke for å lage Roblox-spill?",
+            "questionText": "Hvilket språk brukes til skripting i Roblox i dag?",
             "options": [
               "Luau",
               "JavaScript",
@@ -1304,7 +1364,7 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva heter Roblox sin årlige utviklerkonferanse?",
+            "questionText": "Hva forkortes Roblox sin utviklerkonferanse vanligvis til?",
             "options": [
               "RDC",
               "Robloxcon",
@@ -1314,9 +1374,9 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva var det tidligere navnet på Roblox premium?",
+            "questionText": "Hva het abonnementet Roblox Premium før det fikk dagens navn?",
             "options": [
-              "Byggmesterklubb",
+              "Builders Club",
               "Roblox Plus",
               "Roblox Pro",
               "VIP-klubb"
@@ -1324,12 +1384,12 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva var det aller første Roblox-spillet som nådde 1B+ besøk?",
+            "questionText": "Hvilken Roblox-opplevelse var den første som passerte 1 milliard besøk?",
             "options": [
               "MeepCity",
               "Arsenal",
-              "Bygg en båt for skatter",
-              "Adopter meg"
+              "Build A Boat For Treasure",
+              "Adopt Me!"
             ],
             "answer_index": 0
           }
@@ -1339,59 +1399,59 @@
   },
   "engelsk": {
     "title": "Engelsk",
-    "description": "Øv på engelsk grammatikk, ordforråd og språkforståelse.",
+    "description": "Øv på engelsk grammatikk, ordforråd og grunnleggende språkforståelse.",
     "quizzes": [
       {
         "name": "Engelsk 1",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hvilket av følgende er et egennavn?",
+            "questionText": "Hvilket av disse ordene er et egennavn på engelsk?",
             "options": [
               "London",
-              "By",
-              "Elv",
-              "Fjell"
+              "city",
+              "river",
+              "mountain"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er den riktige måten å sette tegn på denne setningen på?",
+            "questionText": "Hvilken setning er riktig skrevet på engelsk?",
             "options": [
-              "Jeg er imidlertid ikke enig i din mening.",
-              "Men jeg er ikke enig i din mening.",
-              "Men jeg er ikke enig i din mening.",
-              "Imidlertid; Jeg er ikke enig i din mening."
+              "However, I do not agree with your opinion.",
+              "However I do not agree with your opinion",
+              "however, I do not agree with your opinion.",
+              "However; I do not agree with your opinion."
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket ord er et adjektiv?",
+            "questionText": "Hvilket av disse engelske ordene er et adjektiv?",
             "options": [
-              "Vakker",
-              "Løp",
-              "Raskt",
-              "Bord"
+              "beautiful",
+              "run",
+              "quickly",
+              "table"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken er riktig stavemåte?",
+            "questionText": "Hvilken stavemåte er riktig på engelsk?",
             "options": [
-              "Nødvendig",
-              "Nødvendig",
-              "Nødvendig",
-              "Nødvendig"
+              "necessary",
+              "neccessary",
+              "necessery",
+              "necesary"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er emnet i setningen: 'Katten jaget musen over gården'?",
+            "questionText": "Hva er subjektet i setningen 'The cat chased the mouse across the yard'?",
             "options": [
-              "Katten",
-              "Musen",
-              "Verftet",
-              "Jaget"
+              "The cat",
+              "the mouse",
+              "the yard",
+              "chased"
             ],
             "answer_index": 0
           }
@@ -1772,24 +1832,24 @@
   },
   "luau": {
     "title": "Luau",
-    "description": "Test kunnskap om programmeringsspråket Luau og grunnleggende syntaks.",
+    "description": "Test kunnskapen din om Luau, språket som brukes til skripting i Roblox.",
     "quizzes": [
       {
         "name": "Luau 1",
         "difficulty": "vanskelig",
         "questions": [
           {
-            "questionText": "Hva er nøkkelordet for å definere en funksjon i Luau?",
+            "questionText": "Hvilket nøkkelord bruker du for å definere en funksjon i Luau?",
             "options": [
-              "funksjon",
+              "function",
               "def",
-              "lokale",
+              "local",
               "sub"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er syntaksen for å lage en kommentar i Luau?",
+            "questionText": "Hvordan skriver du en vanlig kommentar på én linje i Luau?",
             "options": [
               "-- kommentar",
               "// kommentar",
@@ -1799,9 +1859,9 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva er datatypen for lagring av flere verdier i Luau?",
+            "questionText": "Hvilken datatype bruker Luau for å lagre flere verdier i en struktur?",
             "options": [
-              "bord",
+              "table",
               "array",
               "liste",
               "sett"
@@ -1809,17 +1869,17 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hvordan erklærer du et bord i Luau?",
+            "questionText": "Hvordan lager du en tom table i Luau?",
             "options": [
-              "lokal tabell = {}",
-              "lokal tabell = []",
-              "lokal tabell = table.new()",
-              "lokal tabell = ()"
+              "local myTable = {}",
+              "local myTable = []",
+              "local myTable = ()",
+              "local myTable = set{}"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er symbolet for å sammenkoble strenger i Luau?",
+            "questionText": "Hvilket symbol brukes for å sette sammen to strenger i Luau?",
             "options": [
               "..",
               "+",
@@ -1894,78 +1954,16 @@
       }
     ]
   },
-  "memes": {
-    "title": "Memes",
-    "description": "Internettkultur og kjente memes fra ulike plattformer.",
-    "quizzes": [
-      {
-        "name": "Memes 1",
-        "difficulty": "lett",
-        "questions": [
-          {
-            "questionText": "Hvilken meme viser en hund som sitter i et brennende rom?",
-            "options": [
-              "Dette er greit",
-              "Doge",
-              "Gretten katt",
-              "Ulykke Brian"
-            ],
-            "answer_index": 0
-          },
-          {
-            "questionText": "Hva er navnet på froskekarakteren som ofte forbindes med uttrykket \"føler seg bra\"?",
-            "options": [
-              "Pepe",
-              "Kermit",
-              "Frogger",
-              "Freddy"
-            ],
-            "answer_index": 0
-          },
-          {
-            "questionText": "Hva er betegnelsen på et meme som ser lavkvalitets og pikselert ut?",
-            "options": [
-              "Frityrstekt",
-              "Takk",
-              "Cringe",
-              "Ironisk"
-            ],
-            "answer_index": 0
-          },
-          {
-            "questionText": "Hvilket dyr er assosiert med «Doge»-memet?",
-            "options": [
-              "Shiba Inu",
-              "Gretten katt",
-              "Tastatur Kat",
-              "Nyan Cat"
-            ],
-            "answer_index": 0
-          },
-          {
-            "questionText": "Hva er navnet på meme med en manns hode som stikker ut av en stund toalettskål?",
-            "options": [
-              "Skibidi Toalett",
-              "TF2 fyr",
-              "Fanum Skatt",
-              "Smurfekatt"
-            ],
-            "answer_index": 0
-          }
-        ]
-      }
-    ]
-  },
   "anime": {
     "title": "Anime",
-    "description": "Spørsmål om populære anime-serier, karakterer og univers.",
+    "description": "Spørsmål om kjente anime-serier, figurer og ikoniske detaljer.",
     "quizzes": [
       {
         "name": "Anime 1",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hva heter hovedpersonen i Naruto?",
+            "questionText": "Hva heter hovedpersonen i animeen Naruto?",
             "options": [
               "Naruto Uzumaki",
               "Naruto Uchiha",
@@ -1975,42 +1973,104 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva heter piratbesetningen som Monkey D. Luffy leder i One Piece?",
+            "questionText": "Hva heter piratgjengen som Monkey D. Luffy leder i One Piece?",
             "options": [
               "Straw Hat Pirates",
-              "Svartskjegg pirater",
-              "Rødt hår pirater",
-              "Hvitskjegg pirater"
+              "Blackbeard Pirates",
+              "Red Hair Pirates",
+              "Whitebeard Pirates"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er navnet på den kraftige notatboken som kan drepe alle hvis navn er skrevet i den?",
+            "questionText": "Hva heter notatboken i Death Note som kan drepe folk når navnet deres skrives i den?",
             "options": [
+              "Death Note",
               "Dødsnotat",
-              "Kira Merk",
-              "Shinigami Note",
-              "Livsnotat"
+              "Kira Book",
+              "Life Note"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "I Death Note, hvordan oppdager Light Yagami først den beryktede notatboken?",
+            "questionText": "Hvordan finner Light Yagami Death Note for første gang?",
             "options": [
-              "Han ser det falle ned fra himmelen",
-              "Han får den i gave fra en venn",
-              "Den blir levert til ham i en mystisk boks",
-              "Han finner den på t-banen"
+              "Han ser den falle ned fra himmelen",
+              "Han får den av en venn",
+              "Den ligger i postkassen hans",
+              "Han finner den på toget"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva heter hovedpersonen i Pokémon-serien?",
+            "questionText": "Hva heter treneren som er hovedperson i anime-serien Pokémon?",
             "options": [
-              "Ask Ketchum",
-              "Naruto Uzumaki",
+              "Ash Ketchum",
               "Gary Oak",
-              "Pikachu"
+              "Pikachu",
+              "Brock"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "memes": {
+    "title": "Memes",
+    "description": "Kjenner du igjen klassiske memes, figurer og referanser fra nettkulturen?",
+    "quizzes": [
+      {
+        "name": "Memes 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hvilket meme viser en tegnet hund som sitter rolig i et rom som står i brann?",
+            "options": [
+              "This is fine",
+              "Doge",
+              "Grumpy Cat",
+              "Bad Luck Brian"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter figuren som ofte dukker opp i memer med teksten «feels good man»?",
+            "options": [
+              "Pepe the Frog",
+              "Kermit",
+              "Frogger",
+              "Michigan J. Frog"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva kalles en meme som med vilje er overredigert, pikselert og kaotisk?",
+            "options": [
+              "Deep-fried meme",
+              "Reaction image",
+              "Copypasta",
+              "Wholesome meme"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken hunderase er knyttet til Doge-memet?",
+            "options": [
+              "Shiba Inu",
+              "Akita",
+              "Corgi",
+              "Husky"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter meme-serien med syngende hoder som stikker opp av toaletter?",
+            "options": [
+              "Skibidi Toilet",
+              "Annoying Orange",
+              "Nyan Cat",
+              "MLG Teletubbies"
             ],
             "answer_index": 0
           }
@@ -2323,59 +2383,59 @@
   },
   "ordtak-og-idiomer": {
     "title": "Ordtak og idiomer",
-    "description": "Forstår du uttrykkene? Test deg i ordtak og idiomer.",
+    "description": "Forstår du vanlige norske uttrykk og hva de egentlig betyr?",
     "quizzes": [
       {
         "name": "Ordtak og idiomer 1",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hvilket formspråk betyr å avsløre en hemmelighet?",
+            "questionText": "Hva betyr uttrykket «å slippe katta ut av sekken»?",
             "options": [
-              "Slipp katten ut av sekken",
-              "Mal byen rød",
-              "Slå rundt busken",
-              "Bite i kulen"
+              "Å røpe en hemmelighet",
+              "Å gjøre en tabbe",
+              "Å bli sint",
+              "Å overdrive"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva refererer 'a piece of cake' til?",
+            "questionText": "Hva betyr det at noe er «plankekjøring»?",
             "options": [
-              "Noe veldig enkelt",
-              "En dessert",
-              "En vanskelig oppgave",
-              "En liten porsjon"
+              "At det er veldig enkelt",
+              "At det går sakte",
+              "At det er farlig",
+              "At det krever samarbeid"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket formspråk betyr å være i trøbbel?",
+            "questionText": "Hva betyr det å ha «is i magen»?",
             "options": [
-              "I varmt vann",
-              "På sky ni",
-              "Under været",
-              "Ut av det blå"
+              "Å holde seg rolig under press",
+              "Å være sulten",
+              "Å være kald",
+              "Å være sta"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva betyr \"hold hestene dine\"?",
+            "questionText": "Hva betyr det å «ta noe med en klype salt»?",
             "options": [
-              "Vær tålmodig",
-              "Ri på hester",
-              "Jobb hardt",
-              "Gå raskere"
+              "Å ikke tro blindt på noe",
+              "Å feire noe",
+              "Å være høflig",
+              "Å bli fornærmet"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva betyr \"brekke et bein\"?",
+            "questionText": "Hva betyr det å ha «bein i nesa»?",
             "options": [
-              "Lykke til",
-              "Faktisk bryte et bein",
-              "Løp vekk",
-              "Ta en pause"
+              "Å være tøff og bestemt",
+              "Å være syk",
+              "Å være klønete",
+              "Å være veldig rask"
             ],
             "answer_index": 0
           }
@@ -2385,59 +2445,59 @@
   },
   "internett-slang": {
     "title": "Internett-slang",
-    "description": "Quiz om forkortelser, uttrykk og språkbruk fra internett.",
+    "description": "Quiz om forkortelser, uttrykk og slang du ofte møter på nettet.",
     "quizzes": [
       {
         "name": "Internett-slang 1",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hva står 'LOL' for?",
+            "questionText": "Hva uttrykker folk vanligvis når de skriver «LOL» i en chat?",
             "options": [
-              "Le høyt",
-              "Masse kjærlighet",
-              "Bor på land",
-              "Se ut til venstre"
+              "At noe er morsomt",
+              "At de er sinte",
+              "At de logger av",
+              "At de er forvirret"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva står 'FOMO' for?",
+            "questionText": "Hva betyr «FOMO»?",
             "options": [
               "Frykt for å gå glipp",
-              "Friends of My Office",
-              "Glad i å gå videre",
-              "Full av mange alternativer"
+              "Å være lei seg",
+              "Å være skikkelig fokusert",
+              "Å måtte svare fort"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva står \"IMO\" for?",
+            "questionText": "Hva betyr det når noen skriver «IMO»?",
             "options": [
-              "Etter min mening",
-              "Internett-postordre",
-              "Det er åpenbart mandag",
-              "Jeg mener Ok"
+              "At de sier sin mening",
+              "At de er usikre",
+              "At de er ironiske",
+              "At de er ferdige med samtalen"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er meningen med 'SMH'?",
+            "questionText": "Hva uttrykker «SMH» vanligvis?",
             "options": [
-              "Rister på hodet",
-              "Så mye hat",
-              "Send mer hjelp",
-              "Knuser hodet mitt"
+              "Oppgitthet eller vantro",
+              "Stor glede",
+              "Takknemlighet",
+              "At noen er på vei"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva står 'IIRC' for?",
+            "questionText": "Hva betyr «IIRC»?",
             "options": [
-              "Hvis jeg husker riktig (hvis jeg husker riktig)",
-              "Det er virkelig kult (Er det virkelig kult)",
-              "Jeg er utrolig rik, barn",
-              "Interessant informasjon krever vurdering"
+              "Hvis jeg husker riktig",
+              "Jeg er straks tilbake",
+              "Jeg kan ikke lese dette",
+              "Det er bare en spøk"
             ],
             "answer_index": 0
           }
@@ -2448,52 +2508,52 @@
         "difficulty": "middels",
         "questions": [
           {
-            "questionText": "Hva betyr \"FTFY\"?",
+            "questionText": "Hva betyr «FTFY»?",
             "options": [
               "Fikset det for deg",
-              "For Året etter",
-              "Glem det, finn deg selv",
-              "Raskere enn femti Yaks"
+              "Fant dette for deg",
+              "Ferdig for i år",
+              "Følg tråden videre"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er meningen med 'AMA'?",
+            "questionText": "Hva betyr «AMA» på nettet?",
             "options": [
               "Spør meg hva som helst",
-              "Alltid å gjøre antagelser",
-              "Nok en ubesvart avtale",
-              "Fantastisk Meme Alert"
+              "Gi meg et svar",
+              "Anonym melding til alle",
+              "Avtal møte alene"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva står \"YOLO\" for?",
+            "questionText": "Hva betyr «YOLO»?",
             "options": [
               "Du lever bare én gang",
-              "Dine egne livsforpliktelser",
-              "Gårsdagens gamle løk",
-              "Roper høyt ofte"
+              "Du har bare logget på",
+              "Gjør det senere",
+              "Du burde roe ned"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva står 'OMW' for?",
+            "questionText": "Hva betyr «OMW»?",
             "options": [
               "På vei",
-              "Å mitt ord",
-              "Bare menn velkommen",
-              "Offisiell Meme-nettsted"
+              "Jeg er på nett",
+              "Jeg er ferdig",
+              "Jeg er usikker"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er meningen med 'ITT'?",
+            "questionText": "Hva betyr «ITT»?",
             "options": [
               "I denne tråden",
-              "Jeg skal fortelle dem",
-              "Jeg tror det",
-              "Jeg snakket med"
+              "I privat chat",
+              "I morgen tidlig",
+              "I denne typen"
             ],
             "answer_index": 0
           }
@@ -2565,24 +2625,24 @@
   },
   "gjett-boken": {
     "title": "Gjett boken",
-    "description": "Kjenn igjen bøker fra handlinger, figurer og litterære hint.",
+    "description": "Kjenn igjen kjente bøker ut fra handling, figurer og små ledetråder.",
     "quizzes": [
       {
         "name": "Gjett boken 1",
         "difficulty": "middels",
         "questions": [
           {
-            "questionText": "I hvilken bok faller en ung jente ved navn Alice ned i et kaninhull inn i en fantastisk verden?",
+            "questionText": "Hvilken bok handler om Alice, som faller ned i et kaninhull og havner i en underlig verden?",
             "options": [
               "Alice i Eventyrland",
-              "Den fantastiske trollmannen fra Oz",
+              "Trollmannen fra Oz",
               "Peter Pan",
               "Den hemmelige hagen"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken bok forteller historien om en karakter som heter Bilbo Baggins?",
+            "questionText": "I hvilken bok møter vi Bilbo Baggins?",
             "options": [
               "Hobbiten",
               "Ringenes Herre",
@@ -2592,32 +2652,32 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken bok inneholder et dystopisk samfunn der bøker brennes?",
+            "questionText": "I hvilken roman lever folk i et samfunn der bøker blir forbudt og brent?",
             "options": [
               "Fahrenheit 451",
               "Brave New World",
               "Fluenes herre",
-              "Slakteri-Fem"
+              "Slakterhus 5"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken bok forteller historien om en gutt som heter Charlie som vinner en gullbillett?",
+            "questionText": "Hvilken bok handler om Charlie, som finner en gullbillett til Willy Wonkas fabrikk?",
             "options": [
               "Charlie og sjokoladefabrikken",
-              "Charlie og den gigantiske fersken",
-              "Wonkas sjokoladefabrikk",
-              "BFG"
+              "Charlie og den store glassheisen",
+              "Matilda",
+              "SVK"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken bok forteller historien om en gutt som aldri vokser opp og bor i Neverland?",
+            "questionText": "Hvilken bok handler om gutten som nekter å bli voksen og bor i Neverland?",
             "options": [
               "Peter Pan",
-              "Den fantastiske trollmannen fra Oz",
+              "Trollmannen fra Oz",
               "Alice i Eventyrland",
-              "The Chronicles of Narnia"
+              "Narnia: Løven, heksa og klesskapet"
             ],
             "answer_index": 0
           }
@@ -2687,41 +2747,41 @@
       }
     ]
   },
-  "hjernerot": {
-    "title": "Hjernerot",
-    "description": "Morsom quiz med virale uttrykk og absurd netthumor.",
+  "brainrot": {
+    "title": "Brainrot",
+    "description": "Kaotiske nettuttrykk, absurde referanser og hjernesmelt fra internett.",
     "quizzes": [
       {
-        "name": "Hjernerot 1",
+        "name": "Brainrot 1",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hva er ordet for de rare små mennene som sitter fast på toaletter?",
+            "questionText": "Hva heter videoserien med syngende hoder som stikker opp av toaletter?",
             "options": [
-              "Skibidi",
-              "Toalett slanger",
-              "Rørlegger nisser",
-              "Skålgutter"
+              "Skibidi Toilet",
+              "The Backrooms",
+              "Annoying Orange",
+              "LankyBox"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva heter det når noen snakker lenge på en irriterende måte?",
+            "questionText": "Hva mener folk vanligvis når de sier at noen «yapper»?",
             "options": [
-              "Japping",
-              "Woofing",
-              "Ranting",
-              "Monolog"
+              "At de snakker i ett uten å stoppe",
+              "At de sovner stående",
+              "At de blir sinte med vilje",
+              "At de prøver å være kule"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket begrep beskriver noen som er litt av en ensom ulv – kanskje enda bedre enn en alfa?",
+            "questionText": "Hva beskriver ordet «sigma» vanligvis i brainrot-slang?",
             "options": [
-              "Sigma",
-              "Omega",
-              "Beta",
-              "Zeta"
+              "En selvstendig type som ikke følger flokken",
+              "En som alltid taper",
+              "En som er ekstremt snill",
+              "En som er redd for alt"
             ],
             "answer_index": 0
           },
@@ -2736,68 +2796,68 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva heter den lilla McDonald's-drikken?",
+            "questionText": "Hva heter den lilla milkshaken fra McDonald's som ble et kjent meme?",
             "options": [
               "Grimace Shake",
-              "Sussy Punch",
-              "Blueberry McFlurry",
-              "Utløpt Shake"
+              "McPurple Blast",
+              "Barney Shake",
+              "Berry Freeze"
             ],
             "answer_index": 0
           }
         ]
       },
       {
-        "name": "Hjernerot 2",
+        "name": "Brainrot 2",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hva betyr det å være 'kokt'?",
+            "questionText": "Hva betyr det som regel at noen er «cooked»?",
             "options": [
-              "I en virkelig dårlig posisjon",
-              "Ekstremt sulten",
-              "Føler meg veldig sliten",
-              "Spent eller begeistret"
+              "At de er i en skikkelig dårlig situasjon",
+              "At de er veldig sultne",
+              "At de har blitt mye smartere",
+              "At de tar en pause"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Fyll ut feltet: 'Ehm, hva faen'?",
+            "questionText": "Hvilket ord mangler i uttrykket «What the ___?» som ofte brukes i brainrot-memer?",
             "options": [
               "sigma",
-              "hund",
-              "pokker",
-              "alfa"
+              "alpha",
+              "rizz",
+              "gyatt"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er betegnelsen på overdreven ros eller kompliment til noen?",
+            "questionText": "Hva betyr det å «glaze» noen?",
             "options": [
-              "Innglassing",
-              "Rizzing",
-              "Gassing",
-              "Fawning"
+              "Å overøse noen med overdreven ros",
+              "Å lure noen trill rundt",
+              "Å ignorere noen i chatten",
+              "Å kopiere stilen deres"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvem er hovedfienden til Skibidi Toilet?",
+            "questionText": "Hvem er det som oftest slåss mot Skibidi Toilets i serien?",
             "options": [
-              "Kameramann",
-              "Vaktmester",
-              "Skibidi vask",
-              "G-Man"
+              "Cameramen",
+              "Among Us-figurer",
+              "Minions",
+              "Stickmen"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Fullfør sitatet: 'Bare legg ___ i posen.'",
+            "questionText": "Hva mangler i memefrasen «Just put the ___ in the bag, bro»?",
             "options": [
-              "Frites",
-              "Penger",
-              "Skibidi",
-              "Rizz"
+              "fries",
+              "phone",
+              "loot",
+              "rizz"
             ],
             "answer_index": 0
           }
@@ -2807,59 +2867,59 @@
   },
   "gamerord": {
     "title": "Gamerord",
-    "description": "Lær vanlige spilluttrykk og slang brukt i gamingmiljøer.",
+    "description": "Lær vanlige spilluttrykk og slang fra gamingmiljøet.",
     "quizzes": [
       {
         "name": "Gamerord 1",
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Hva betyr 'GG'?",
+            "questionText": "Hva betyr «GG» etter en match?",
             "options": [
-              "Bra spill",
-              "Bli bra",
-              "Flott mål",
-              "Gamer jente"
+              "God kamp eller bra spilt",
+              "Gi gass",
+              "Game glitch",
+              "Gå igjen"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken setning ber spillerne ta en pause i den virkelige verden og gå ut?",
+            "questionText": "Hva betyr uttrykket «touch grass»?",
             "options": [
-              "Trykk på gress",
-              "Spis en salat",
-              "Gå av",
-              "Chillax"
+              "Ta en pause fra skjermen",
+              "Spill mer aggressivt",
+              "Velg et naturkart",
+              "Gå tilbake til lobbyen"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "En 'Noob' er en:",
+            "questionText": "Hva menes med en «noob»?",
             "options": [
-              "Ny spiller",
-              "Night Ops Bot",
-              "Jukser",
-              "Nintendo Spectator"
+              "En ny eller uerfaren spiller",
+              "En som jukser",
+              "En som er lagleder",
+              "En som bare spiller rangert"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "'OP' står for:",
+            "questionText": "Hva betyr det at noe er «OP»?",
             "options": [
-              "Overmannet",
-              "Original plakat",
-              "Online spiller",
-              "Åpen fest"
+              "At det er for sterkt",
+              "At det er originalt",
+              "At det er offline",
+              "At det er åpen PvP"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvis noen «buffer», er de:",
+            "questionText": "Hva betyr det å «buffe» en figur eller et våpen?",
             "options": [
-              "Slår på",
-              "Trener",
-              "Rengjøringsutstyr",
-              "Tar skade"
+              "Å gjøre den sterkere",
+              "Å gjøre den svakere",
+              "Å reparere utstyr",
+              "Å låse den opp"
             ],
             "answer_index": 0
           }
@@ -2870,52 +2930,52 @@
         "difficulty": "lett",
         "questions": [
           {
-            "questionText": "Når utviklere svekker et sterkt våpen, ___ det:",
+            "questionText": "Hva betyr det å «nerfe» et våpen?",
             "options": [
-              "Nerf",
-              "Buff",
-              "Lapp",
-              "Hurtigreparasjon"
+              "Å gjøre det svakere",
+              "Å gi det mer skade",
+              "Å fjerne recoil",
+              "Å gjøre det dyrere"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "'Camping' i skyttere betyr:",
+            "questionText": "Hva betyr «camping» i skytespill?",
             "options": [
               "Bo på ett sted",
-              "Juks",
-              "Samarbeidsmodus",
-              "Bygge leirer"
+              "Å spille med venner",
+              "Å bygge base ute",
+              "Å gjemme loot"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "En 'clutch' er en:",
+            "questionText": "Hva er en «clutch»?",
             "options": [
-              "Siste andre seier",
-              "Bildel",
-              "Team Carry",
-              "Kontrollerfeil"
+              "Når noen redder runden i siste liten",
+              "En sjelden lootkasse",
+              "En feil med kontrolleren",
+              "En støtteklasse"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvis en spiller prøver å slå et spill så fort som mulig, prøver de en ...",
+            "questionText": "Hva er en «speedrun»?",
             "options": [
-              "Speedrun",
-              "Speed ​​Challenge",
-              "Tidsprøve",
-              "Tidsangrep"
+              "Et forsøk på å fullføre et spill så fort som mulig",
+              "Et løp med ekstra sprint-knapp",
+              "En tidsbegrenset challenge fra utviklerne",
+              "Et spill med korte baner"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva kalles handlingen med å trekke fiender bort for å bekjempe dem individuelt?",
+            "questionText": "Hva betyr det å «kite» en fiende?",
             "options": [
-              "Kiting",
-              "Buffing",
-              "Turtling",
-              "Zerging"
+              "Å holde avstand mens du lokker fienden etter deg",
+              "Å ta imot skade for laget",
+              "Å gjemme seg til ult-en er klar",
+              "Å slåss mot flere samtidig"
             ],
             "answer_index": 0
           }
@@ -2923,61 +2983,61 @@
       }
     ]
   },
-  "strommekultur": {
-    "title": "Strømmekultur",
-    "description": "Spørsmål om strømmetjenester, emotes og livekultur på nett.",
+  "streamingkultur": {
+    "title": "Streamingkultur",
+    "description": "Uttrykk, emotes og vaner fra streamere, chat og livesendinger.",
     "quizzes": [
       {
-        "name": "Strømmekultur 1",
+        "name": "Streamingkultur 1",
         "difficulty": "middels",
         "questions": [
           {
-            "questionText": "'IRL' står for:",
+            "questionText": "Hva betyr «IRL» i streamsammenheng?",
             "options": [
               "I det virkelige liv",
-              "Liste over internettregler",
-              "Varebelønningsnivå",
-              "Instant Raid Loot"
+              "Jeg er litt sen",
+              "Interaktiv raid-lobby",
+              "Intern regel-liste"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "\"PogChamp\"-emosjonen uttrykker:",
+            "questionText": "Hva uttrykker emote-en «PogChamp» vanligvis?",
             "options": [
-              "Spenning",
-              "Skuffelse",
-              "Sinne",
-              "Tristhet"
+              "Hype eller begeistring",
+              "Tristhet",
+              "Irritasjon",
+              "Forvirring"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "En seer som ser stille uten å chatte, kalles en:",
+            "questionText": "Hva kalles en seer som følger med uten å skrive i chatten?",
             "options": [
               "Lurker",
-              "NPC",
-              "Nonchatter",
-              "Sneaker"
+              "Mod",
+              "Raider",
+              "Clipper"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Du kan heie på streamere med hvilken valuta?",
+            "questionText": "Hvilken valuta brukes på Twitch for å heie på streamere?",
             "options": [
               "Bits",
-              "Mynter",
-              "Studiepoeng",
-              "Superchatter"
+              "Coins",
+              "Credits",
+              "Stars"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva er betegnelsen på når en streamer sender seerne til en annen direktesending?",
+            "questionText": "Hva kalles det når en streamer sender seerne videre til en annen kanal?",
             "options": [
               "Raid",
-              "Bytt",
-              "Stafett",
-              "Overføre"
+              "Host",
+              "Boost",
+              "Swap"
             ],
             "answer_index": 0
           }
@@ -2987,24 +3047,24 @@
   },
   "datamaskinvare": {
     "title": "Datamaskinvare",
-    "description": "Test kunnskapen din om komponenter og maskinvare i datamaskiner.",
+    "description": "Test kunnskapen din om komponenter, porter og grunnleggende PC-maskinvare.",
     "quizzes": [
       {
         "name": "Datamaskinvare 1",
         "difficulty": "middels",
         "questions": [
           {
-            "questionText": "Hvilken komponent regnes som \"hjernen\" til en datamaskin?",
+            "questionText": "Hvilken komponent blir ofte kalt «hjernen» i en datamaskin?",
             "options": [
               "CPU",
-              "VÆR",
+              "RAM",
               "GPU",
               "HDD"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hva står GPU for?",
+            "questionText": "Hva står forkortelsen GPU for?",
             "options": [
               "Grafikkbehandlingsenhet",
               "Generell behandlingsenhet",
@@ -3014,7 +3074,7 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken enhet måles datamaskinens minne (RAM) vanligvis i?",
+            "questionText": "I hvilken enhet oppgis RAM vanligvis?",
             "options": [
               "Gigabyte",
               "Volt",
@@ -3024,7 +3084,7 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hva er standardporten for å koble til en skjerm?",
+            "questionText": "Hvilken port brukes ofte for å koble en PC til en skjerm eller TV?",
             "options": [
               "HDMI",
               "USB",
@@ -3034,12 +3094,260 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hvilken type minne mister alle data når datamaskinen slås av?",
+            "questionText": "Hvilken type minne mister innholdet sitt når strømmen slås av?",
             "options": [
-              "VÆR",
+              "RAM",
               "HDD",
               "SSD",
               "ROM"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "fotball": {
+    "title": "Fotball",
+    "description": "Spørsmål om regler, turneringer, klubber og kjente fotballspillere.",
+    "quizzes": [
+      {
+        "name": "Fotball 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvor mange spillere har et lag på banen samtidig i vanlig fotball, inkludert keeper?",
+            "options": [
+              "11",
+              "10",
+              "9",
+              "12"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken turnering arrangeres hvert fjerde år for herrelandslag fra hele verden?",
+            "options": [
+              "VM",
+              "Champions League",
+              "Europa League",
+              "Nations League"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva får en spiller dersom dommeren viser rødt kort?",
+            "options": [
+              "Spilleren må forlate banen",
+              "Laget får straffe",
+              "Kampen stoppes",
+              "Spilleren byttes automatisk ut"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem er mest kjent for draktnummer 10 i Barcelona og Argentina i moderne tid?",
+            "options": [
+              "Lionel Messi",
+              "Cristiano Ronaldo",
+              "Kylian Mbappé",
+              "Luka Modrić"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter den engelske toppdivisjonen i fotball?",
+            "options": [
+              "Premier League",
+              "Championship",
+              "La Liga",
+              "Serie A"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "bilmerker": {
+    "title": "Bilmerker",
+    "description": "Kjenn igjen bilprodusenter, logoer og opprinnelsesland.",
+    "quizzes": [
+      {
+        "name": "Bilmerker 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilket bilmerke lager modellen Corolla?",
+            "options": [
+              "Toyota",
+              "Honda",
+              "Mazda",
+              "Nissan"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Fra hvilket land kommer bilmerket Volvo?",
+            "options": [
+              "Sverige",
+              "Tyskland",
+              "Japan",
+              "USA"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket bilmerke har en logo med fire ringer?",
+            "options": [
+              "Audi",
+              "BMW",
+              "Opel",
+              "Mercedes-Benz"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket elbilmerke står bak Model 3 og Model Y?",
+            "options": [
+              "Tesla",
+              "Polestar",
+              "BYD",
+              "NIO"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket italiensk sportsbilmerke har en steilende hest i logoen?",
+            "options": [
+              "Ferrari",
+              "Lamborghini",
+              "Maserati",
+              "Alfa Romeo"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "programmering": {
+    "title": "Programmering",
+    "description": "Grunnleggende spørsmål om kode, språk, begreper og utvikling.",
+    "quizzes": [
+      {
+        "name": "Programmering 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva kalles en struktur som brukes til å ta valg i kode, for eksempel if/else?",
+            "options": [
+              "Betingelse",
+              "Løkke",
+              "Array",
+              "Import"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket språk kjører direkte i nettleseren på vanlige nettsider?",
+            "options": [
+              "JavaScript",
+              "Python",
+              "C#",
+              "Java"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva brukes en løkke til i programmering?",
+            "options": [
+              "Å gjenta kode flere ganger",
+              "Å lagre bilder",
+              "Å kryptere passord",
+              "Å koble til internett"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er en variabel?",
+            "options": [
+              "Et navn som peker på en verdi i programmet",
+              "En type kommentar",
+              "Et ikon i et brukergrensesnitt",
+              "En feil i koden"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva betyr det å 'debugge' et program?",
+            "options": [
+              "Å finne og rette feil",
+              "Å publisere koden",
+              "Å slette hele prosjektet",
+              "Å lage et nytt passord"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "kjendiser": {
+    "title": "Kjendiser",
+    "description": "Spørsmål om kjente personer fra film, musikk, sport og underholdning.",
+    "quizzes": [
+      {
+        "name": "Kjendiser 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilken artist er kjent som «The King of Pop»?",
+            "options": [
+              "Michael Jackson",
+              "Elvis Presley",
+              "Prince",
+              "Justin Timberlake"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem spilte hovedrollen som Harry Potter i filmserien?",
+            "options": [
+              "Daniel Radcliffe",
+              "Rupert Grint",
+              "Elijah Wood",
+              "Tom Holland"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken norsk sjakkspiller ble verdensmester i 2013?",
+            "options": [
+              "Magnus Carlsen",
+              "Aryan Tari",
+              "Jon Ludvig Hammer",
+              "Hikaru Nakamura"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem er grunnleggeren av Facebook, nå Meta?",
+            "options": [
+              "Mark Zuckerberg",
+              "Elon Musk",
+              "Bill Gates",
+              "Jeff Bezos"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken sanger står bak albumet '21'?",
+            "options": [
+              "Adele",
+              "Taylor Swift",
+              "Beyoncé",
+              "Rihanna"
             ],
             "answer_index": 0
           }

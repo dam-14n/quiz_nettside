@@ -139,9 +139,9 @@ async function startTimer() {
             
             // Flash timer off and on three times
             for (let i = 0; i < 3; i++) {
-                await wait(500);
+                await wait(400);
                 timer.style.opacity = 0;
-                await wait(500);
+                await wait(400);
                 timer.style.opacity = 100;
             }
             return;
@@ -164,7 +164,7 @@ async function runQuestion(questionIndex) {
 
     // Wait less time if answer has been provided by player
     if (typeof answerIndex === "number") {
-        await wait(2000);
+        await wait(1500);
     } else {
         await wait(2000);
     }
