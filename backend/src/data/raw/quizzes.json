@@ -1,0 +1,3174 @@
+{
+  "gjett-landet": {
+    "title": "Gjett landet",
+    "description": "Test flaggkunnskap og se om du klarer å gjette riktig land.",
+    "quizzes": [
+      {
+        "name": "Gjett landet 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hvilket land er dette? 🇹🇷",
+            "options": [
+              "Kalkun",
+              "Spania",
+              "Hellas",
+              "Kypros"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇪🇸",
+            "options": [
+              "Spania",
+              "Portugal",
+              "Hellas",
+              "Mexico"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇵🇱",
+            "options": [
+              "Polen",
+              "Indonesia",
+              "Østerrike",
+              "Grønland"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇮🇳",
+            "options": [
+              "India",
+              "Pakistan",
+              "Sri Lanka",
+              "Afghanistan"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇳🇴",
+            "options": [
+              "Norge",
+              "Sverige",
+              "Danmark",
+              "Island"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Gjett landet 2",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hvilket land er dette? 🇫🇷",
+            "options": [
+              "Frankrike",
+              "England",
+              "Nederland",
+              "Russland"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇬🇷",
+            "options": [
+              "Hellas",
+              "Serbia",
+              "Argentina",
+              "Spania"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇦🇷",
+            "options": [
+              "Argentina",
+              "Honduras",
+              "Estland",
+              "Brasil"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇻🇳",
+            "options": [
+              "Vietnam",
+              "Kina",
+              "Japan",
+              "Beijing"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇷🇸",
+            "options": [
+              "Serbia",
+              "Bosnia",
+              "Kroatia",
+              "Slovakia"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Gjett landet 3",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilket land er dette? 🇲🇽",
+            "options": [
+              "Mexico",
+              "Nederland",
+              "Iran",
+              "Spania"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇵🇹",
+            "options": [
+              "Portugal",
+              "Brasil",
+              "Madrid",
+              "Spania"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇲🇦",
+            "options": [
+              "Marokko",
+              "Vietnam",
+              "Kina",
+              "Israel"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇧🇪",
+            "options": [
+              "Belgia",
+              "Tyskland",
+              "Frankrike",
+              "Romania"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇮🇩",
+            "options": [
+              "Indonesia",
+              "Polen",
+              "Peru",
+              "Sveits"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Gjett landet 4",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hvilket land er dette? 🇸🇮",
+            "options": [
+              "Slovenia",
+              "Slovakia",
+              "Russland",
+              "Serbia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇪🇷",
+            "options": [
+              "Eritrea",
+              "Ecuador",
+              "El Salvador"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇫🇮",
+            "options": [
+              "Finland",
+              "Sverige",
+              "Falklandsøyene"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇿🇲",
+            "options": [
+              "Zambia",
+              "Zimbabwe",
+              "Zaire"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er dette? 🇸🇴",
+            "options": [
+              "Somalia",
+              "Salomonøyene",
+              "Samoa"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "vitenskap": {
+    "title": "Vitenskap",
+    "description": "Utforsk naturfag, fysikk og biologi med spørsmål fra vitenskapens verden.",
+    "quizzes": [
+      {
+        "name": "Vitenskap 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilken av følgende måleenheter brukes til å måle kraft?",
+            "options": [
+              "Newton",
+              "Mile",
+              "Watt",
+              "Kilogram"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvor lang tid tar det for jorden å gjøre en hel rotasjon av solen?",
+            "options": [
+              "365 dager",
+              "7 dager",
+              "30 dager"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Olje, naturgass og kull er eksempler på …",
+            "options": [
+              "Fossilt brensel",
+              "Fornybare ressurser",
+              "Biodrivstoff",
+              "Geotermiske ressurser"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvorfor trekker pupillene seg sammen i sterkt lys?",
+            "options": [
+              "For å slippe inn mindre lys",
+              "For å gi øynene våre mer oksygen",
+              "For å endre vår visjon til 3D"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva kalles avkjølende lava?",
+            "options": [
+              "Magmatiske bergarter",
+              "Magma",
+              "Fossiler"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Vitenskap 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva er raskere, lyd eller lys?",
+            "options": [
+              "Lys",
+              "Lyd",
+              "De reiser med samme hastighet",
+              "De beveger seg ikke"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse er IKKE en av Newtons bevegelseslover?",
+            "options": [
+              "Gjenstander i ro holder seg i bevegelse",
+              "Kraft er lik masse ganger akselerasjon",
+              "Hver handling har en lik og motsatt reaksjon",
+              "Et objekt i bevegelse forblir i bevegelse"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem utviklet relativitetsteorien?",
+            "options": [
+              "Einstein",
+              "Newton",
+              "Galileo",
+              "Darwin"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse er ikke en tilstand av materie?",
+            "options": [
+              "Energi",
+              "Fast",
+              "Flytende",
+              "Gass"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er kraftsenteret til cellen?",
+            "options": [
+              "Mitokondrier",
+              "Kjerne",
+              "Cytoplasma",
+              "Kjernemembran"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Vitenskap 3",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hva heter det største beinet i menneskekroppen?",
+            "options": [
+              "Femur",
+              "Humerus",
+              "Tibia",
+              "Bekken"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse partiklene er dens egen antipartikkel?",
+            "options": [
+              "Foton",
+              "Proton",
+              "Elektron",
+              "Nøytron"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter fenomenet der lys spres av partikler i et medium som ikke er mye større enn lysets bølgelengde?",
+            "options": [
+              "Rayleigh-spredning",
+              "Diffraksjon",
+              "Refraksjon",
+              "Spredning"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter grenen av matematikk som omhandler egenskaper og relasjoner til abstrakte enheter som tall, symboler, mengder og funksjoner?",
+            "options": [
+              "Algebra",
+              "Geometri",
+              "Regning",
+              "Logikk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter enheten for elektrisk potensialforskjell, elektrisk potensiell energi per ladningsenhet?",
+            "options": [
+              "Volt",
+              "Ampere",
+              "Ohm",
+              "Watt"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "historie": {
+    "title": "Historie",
+    "description": "Reis gjennom historien med spørsmål om epoker, hendelser og kjente personer.",
+    "quizzes": [
+      {
+        "name": "Historie 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilket av disse landene ble aldri invadert av Sovjetunionen?",
+            "options": [
+              "Sverige",
+              "Afghanistan",
+              "Finland",
+              "Polen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var hovedårsaken til den franske revolusjonen i 1789?",
+            "options": [
+              "Tredjestandens sosiale og økonomiske ulikhet",
+              "Invasjonen av Napoleon Bonaparte",
+              "Tvister om territorielle grenser med naboland",
+              "Spredningen av svartedauden"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken gammel sivilisasjon bygde Machu Picchu-komplekset?",
+            "options": [
+              "Inca",
+              "Aztec",
+              "Maya",
+              "Egypt"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva kaller folk tiden før skriftlige opptegnelser?",
+            "options": [
+              "Forhistorie",
+              "Middelalder",
+              "Renessanse",
+              "Industriell tidsalder"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse historiske hendelsene skjedde først?",
+            "options": [
+              "Den amerikanske revolusjonen",
+              "Den franske revolusjonen",
+              "Den industrielle revolusjonen",
+              "Den russiske revolusjonen"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Historie 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Sykdommen som drepte en tredjedel av Europas befolkning på 1300-tallet er kjent som:",
+            "options": [
+              "Pest (svartedauden)",
+              "Spanskesyken",
+              "Kopper",
+              "Malaria"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem oppdaget Amerika i 1492?",
+            "options": [
+              "Christopher Columbus",
+              "Marco Polo",
+              "Ferdinand Magellan",
+              "Leif Eriksen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land ga frihetsgudinnen til USA?",
+            "options": [
+              "Frankrike",
+              "Tyskland",
+              "Storbritannia",
+              "Spania"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva het perioden med fornyet interesse for kunst og læring?",
+            "options": [
+              "Renessanse",
+              "Reformasjon",
+              "Opplysning",
+              "Industriell revolusjon"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken kjent handelsrute koblet sammen Europa og Asia?",
+            "options": [
+              "Silkeveien",
+              "Krydderrute",
+              "Amber Road",
+              "Trans-Sahara rute"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "mat-og-drikke": {
+    "title": "Mat og drikke",
+    "description": "Spørsmål om matretter, råvarer og drikkekultur fra hele verden.",
+    "quizzes": [
+      {
+        "name": "Mat og drikke 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilket land er den største kaffeprodusenten i verden?",
+            "options": [
+              "Brasil",
+              "Vietnam",
+              "Colombia",
+              "Etiopia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter den italienske desserten laget av lag med svampekake dynket i kaffe og mascarponeost?",
+            "options": [
+              "Tiramisu",
+              "Maritozzo",
+              "Cannoli",
+              "Zabaglione"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er nasjonalretten til England?",
+            "options": [
+              "Fish and Chips",
+              "Shepherd's Pie",
+              "Yorkshire Pudding",
+              "Søndagsstek"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på den fermenterte melkedrikken som er populær i Sentral-Asia og Øst-Europa?",
+            "options": [
+              "Kefir",
+              "Karin",
+              "Kulmel",
+              "Yoghurt"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land kommer fetaost fra?",
+            "options": [
+              "Hellas",
+              "Sveits",
+              "Spania",
+              "Frankrike"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": {
+    "title": "Trivia",
+    "description": "Blandet allmennkunnskap med varierte og morsomme spørsmål.",
+    "quizzes": [
+      {
+        "name": "Trivia 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilken er IKKE en nobelpriskategori?",
+            "options": [
+              "Matematikk",
+              "Fysikk",
+              "Litteratur",
+              "Kjemi"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket musikkinstrument har 47 strenger og syv pedaler?",
+            "options": [
+              "Harpe",
+              "Piano",
+              "Gitar",
+              "Fiolin"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Japan?",
+            "options": [
+              "Tokyo",
+              "Beijing",
+              "Seoul",
+              "Bangkok"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er det eneste som har et ikke-rektangulært flagg?",
+            "options": [
+              "Nepal",
+              "Sveits",
+              "Japan",
+              "Qatar"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "'Bokmål' og 'nynorsk' er de to offisielle skriftformene på hvilket språk?",
+            "options": [
+              "norsk",
+              "italiensk",
+              "dansk",
+              "spansk"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Trivia 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilket dyr er Australias nasjonale emblem?",
+            "options": [
+              "Kenguru",
+              "Koala",
+              "Emu",
+              "Platypus"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva måler Richterskalaen?",
+            "options": [
+              "Jordskjelvintensitet",
+              "Vindhastighet",
+              "Temperatur",
+              "Tornado styrke"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken valuta brukes i Japan?",
+            "options": [
+              "Yen",
+              "Dollar",
+              "Euro",
+              "Pund"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er det hardeste naturlige stoffet på jorden?",
+            "options": [
+              "Diamant",
+              "Gull",
+              "Stryke",
+              "Platina"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "I sport, hva refererer begrepet PGA til?",
+            "options": [
+              "Professional Golfers Association",
+              "Par golfgjennomsnitt",
+              "Å spille golf i gjennomsnitt",
+              "Deltids golfamatører"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gjett-spraket": {
+    "title": "Gjett språket",
+    "description": "Kjenn igjen språk fra korte fraser og uttrykk.",
+    "quizzes": [
+      {
+        "name": "Gjett språket 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Je suis désolé",
+            "options": [
+              "fransk",
+              "spansk",
+              "italiensk",
+              "portugisisk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "בוקר טוב",
+            "options": [
+              "hebraisk",
+              "tamil",
+              "lao",
+              "mandarin"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Guten Tag",
+            "options": [
+              "tysk",
+              "tagalog",
+              "finsk",
+              "nederlandsk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "こんにちは",
+            "options": [
+              "japansk",
+              "kinesisk",
+              "tyrkisk",
+              "arabisk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "नमस्ते",
+            "options": [
+              "hindi",
+              "indonesisk",
+              "kantonesisk",
+              "nahuatl"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "hovedsteder": {
+    "title": "Hovedsteder",
+    "description": "Test kunnskapen din om hovedsteder rundt om i verden.",
+    "quizzes": [
+      {
+        "name": "Hovedsteder 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva er hovedstaden i USA?",
+            "options": [
+              "Washington D.C.",
+              "New York City",
+              "Los Angeles",
+              "Austin"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Finland?",
+            "options": [
+              "Helsinki",
+              "Stockholm",
+              "Dublin",
+              "Reykjavik"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Polen?",
+            "options": [
+              "Warszawa",
+              "Kiev",
+              "Moskva",
+              "Krakow"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Tyskland?",
+            "options": [
+              "Berlin",
+              "Frankfurt",
+              "Hamburg",
+              "Düsseldorf"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Canada?",
+            "options": [
+              "Ottawa",
+              "Toronto",
+              "Vancouver",
+              "Montreal"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Hovedsteder 2",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hva er hovedstaden i Belgia?",
+            "options": [
+              "Brussel",
+              "Liege",
+              "Amsterdam"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Somalia?",
+            "options": [
+              "Mogadishu",
+              "Garoowe",
+              "Berbera"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Mongolia?",
+            "options": [
+              "Ulaanbaatar",
+              "Hanoi",
+              "Seoul"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedstaden i Australia?",
+            "options": [
+              "Canberra",
+              "Sydney",
+              "Perth"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter hovedstaden i New Zealand?",
+            "options": [
+              "Wellington",
+              "Auckland",
+              "Hamilton"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "geografi": {
+    "title": "Geografi",
+    "description": "Spørsmål om land, byer, elver, kontinenter og verdens geografi.",
+    "quizzes": [
+      {
+        "name": "Geografi 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "På hvilket kontinent ligger Sahara-ørkenen?",
+            "options": [
+              "Afrika",
+              "Asia",
+              "Europa",
+              "Sør-Amerika"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken elv renner gjennom London?",
+            "options": [
+              "Themsen",
+              "Elven Severn",
+              "elven Trent",
+              "Nilen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse byene er IKKE en nasjonal hovedstad?",
+            "options": [
+              "Sydney",
+              "Oslo",
+              "Wellington",
+              "Bangkok"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket kontinent har størst landareal?",
+            "options": [
+              "Asia",
+              "Afrika",
+              "Europa",
+              "Sør-Amerika"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er det minste landet i verden?",
+            "options": [
+              "Vatikanstaten",
+              "Belgia",
+              "Luxembourg",
+              "Ungarn"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Geografi 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilken øy er den største i verden?",
+            "options": [
+              "Grønland",
+              "Madagaskar",
+              "Borneo",
+              "Ny Guinea"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket kontinent har flest land?",
+            "options": [
+              "Afrika",
+              "Europa",
+              "Asia",
+              "Australia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket av følgende land er lenger nord?",
+            "options": [
+              "Skottland",
+              "Nederland",
+              "Belgia",
+              "Polen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er den lengste elven i verden?",
+            "options": [
+              "Nilen",
+              "Amazonaselven",
+              "Yangtse-elven",
+              "Den gule floden"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket hav er det dypeste?",
+            "options": [
+              "Stillehavet",
+              "Atlanterhavet",
+              "Det indiske hav",
+              "Polhavet"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Geografi 3",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hvilket land har den lengste kystlinjen?",
+            "options": [
+              "Canada",
+              "Chile",
+              "Norge",
+              "Australia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket kontinent er det eneste uten ørken?",
+            "options": [
+              "Europa",
+              "Asia",
+              "Nord-Amerika",
+              "Afrika"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket av følgende land er ikke en enklave?",
+            "options": [
+              "Italia",
+              "Vatikanstaten",
+              "San Marino",
+              "Lasotho"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken er den nordligste hovedstaden i verden?",
+            "options": [
+              "Reykjavik, Island",
+              "Oslo, Norge",
+              "Helsingfors, Finland",
+              "Moskva, Russland"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken by er den eneste som ligger på to kontinenter?",
+            "options": [
+              "Istanbul",
+              "Kairo",
+              "Moskva",
+              "Panama City"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gaming": {
+    "title": "Gaming",
+    "description": "Spørsmål om videospill, konsoller og spillkultur.",
+    "quizzes": [
+      {
+        "name": "Gaming 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva er det mest solgte videospillet gjennom tidene?",
+            "options": [
+              "Minecraft",
+              "FIFA 18",
+              "Call of Duty: Modern Warfare 3",
+              "Tetris"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var det første kommersielt suksessrike videospillet?",
+            "options": [
+              "Pong",
+              "Donkey Kong Country",
+              "Super Mario Bros",
+              "Spacewar"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter hovedpersonen i Legend of Zelda-serien?",
+            "options": [
+              "Link",
+              "Zelda",
+              "Ganon",
+              "Mario"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket videospill dukket Mario, Nintendo-karakteren, opp i første gang?",
+            "options": [
+              "Donkey Kong",
+              "Super Mario Bros",
+              "Marios sementfabrikk",
+              "Mario Bros"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på den siste virtuelle virkelighetsenheten utviklet av Valve?",
+            "options": [
+              "Steam Frame",
+              "Oculus Rift",
+              "Meta Quest",
+              "Valve VR"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på spillkonsollen som ble utgitt av Nintendo i 2006 og inneholdt bevegelseskontroller?",
+            "options": [
+              "Wii",
+              "Bryter",
+              "GameCube",
+              "DS"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Gaming 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilket selskap opprettet Mario-franchisen?",
+            "options": [
+              "Nintendo",
+              "Sony",
+              "Microsoft",
+              "Sega"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter spillutvikleren som laget Half-Life, Portal og Counter-Strike?",
+            "options": [
+              "Valve",
+              "Blizzard",
+              "Bethesda",
+              "Rockstar"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på plattformspillserien som inneholder en rørlegger som redder en prinsesse fra en skilpadde-lignende skurk?",
+            "options": [
+              "Super Mario",
+              "Sonic the Hedgehog",
+              "Crash Bandicoot",
+              "Cuphead"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvor mange frittstående Grand Theft Auto-titler har blitt gitt ut?",
+            "options": [
+              "7",
+              "5",
+              "8",
+              "10"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "filmer": {
+    "title": "Filmer",
+    "description": "Test filmkunnskap med spørsmål om karakterer, skuespillere og klassikere.",
+    "quizzes": [
+      {
+        "name": "Filmer 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilken skuespiller spilte rollen som Jack Sparrow i \"Pirates of the Caribbean\"-serien?",
+            "options": [
+              "Johnny Depp",
+              "Orlando Bloom",
+              "Keira Knightley",
+              "Geoffrey Rush"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var den første filmen i Marvel Cinematic Universe?",
+            "options": [
+              "Iron Man",
+              "The Avengers",
+              "Batman",
+              "Spider-Man"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken film er basert på romanen til J.R.R. Tolkien?",
+            "options": [
+              "Ringenes Herre",
+              "The Chronicles of Narnia",
+              "The Hunger Games",
+              "Da Vinci-koden"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter hovedpersonen i The Matrix?",
+            "options": [
+              "Neo",
+              "Morpheus",
+              "Treenighet",
+              "Cypher"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem er Olaf i filmen \"Frozen\"?",
+            "options": [
+              "En snømann",
+              "Et spøkelse",
+              "En ridder",
+              "Et reinsdyr"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "roblox": {
+    "title": "Roblox",
+    "description": "Alt om Roblox, fra historie og funksjoner til spill og community.",
+    "quizzes": [
+      {
+        "name": "Roblox 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva var det opprinnelige navnet til Roblox?",
+            "options": [
+              "DynaBlocks",
+              "Superblokker",
+              "XtraBlocks"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på Roblox sin andre virtuelle valuta som har blitt fjernet siden 2016?",
+            "options": [
+              "Tix",
+              "Builder Mynter",
+              "Ro-poeng"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket program bruker du for å lage spill på Roblox?",
+            "options": [
+              "Roblox Studio",
+              "Roblox spiller",
+              "Roblox Lag",
+              "Roblox Creator"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Roblox sine private servere var tidligere kjent som hvilke av følgende?",
+            "options": [
+              "VIP-servere",
+              "Personlige servere",
+              "Eksklusive servere"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem vant RB Battles sesong 1-mesterskapet?",
+            "options": [
+              "KreekCraft",
+              "Tofuu",
+              "Seedeng",
+              "BriannaPlayz"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Roblox 2",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva er et annet navn for avatarbutikken?",
+            "options": [
+              "Katalog",
+              "Avatarskaper",
+              "Avatar Editor"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket programmeringsspråk må du bruke for å lage Roblox-spill?",
+            "options": [
+              "Luau",
+              "JavaScript",
+              "Python",
+              "PHP"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter Roblox sin årlige utviklerkonferanse?",
+            "options": [
+              "RDC",
+              "Robloxcon",
+              "Robloxx",
+              "Blockfest"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var det tidligere navnet på Roblox premium?",
+            "options": [
+              "Byggmesterklubb",
+              "Roblox Plus",
+              "Roblox Pro",
+              "VIP-klubb"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var det aller første Roblox-spillet som nådde 1B+ besøk?",
+            "options": [
+              "MeepCity",
+              "Arsenal",
+              "Bygg en båt for skatter",
+              "Adopter meg"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "engelsk": {
+    "title": "Engelsk",
+    "description": "Øv på engelsk grammatikk, ordforråd og språkforståelse.",
+    "quizzes": [
+      {
+        "name": "Engelsk 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hvilket av følgende er et egennavn?",
+            "options": [
+              "London",
+              "By",
+              "Elv",
+              "Fjell"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er den riktige måten å sette tegn på denne setningen på?",
+            "options": [
+              "Jeg er imidlertid ikke enig i din mening.",
+              "Men jeg er ikke enig i din mening.",
+              "Men jeg er ikke enig i din mening.",
+              "Imidlertid; Jeg er ikke enig i din mening."
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket ord er et adjektiv?",
+            "options": [
+              "Vakker",
+              "Løp",
+              "Raskt",
+              "Bord"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken er riktig stavemåte?",
+            "options": [
+              "Nødvendig",
+              "Nødvendig",
+              "Nødvendig",
+              "Nødvendig"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er emnet i setningen: 'Katten jaget musen over gården'?",
+            "options": [
+              "Katten",
+              "Musen",
+              "Verftet",
+              "Jaget"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "dyr": {
+    "title": "Dyr",
+    "description": "Lær mer om dyreriket med spørsmål om arter, egenskaper og fakta.",
+    "quizzes": [
+      {
+        "name": "Dyr 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva er det største landdyret?",
+            "options": [
+              "Elefant",
+              "Sjiraff",
+              "Hval",
+              "Rhino"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter en kenguruunge?",
+            "options": [
+              "Joey",
+              "Cub",
+              "Pup",
+              "Sett"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er den raskeste skapningen i dyreriket i stand til å overstige 186 miles per time?",
+            "options": [
+              "Vandrefalk",
+              "Gepard",
+              "Hest",
+              "Løve"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er det eneste pattedyret som kan fly?",
+            "options": [
+              "Flaggermus",
+              "Pingvin",
+              "Pterodactyl",
+              "Drage"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse \"fiskene\" er egentlig en fisk?",
+            "options": [
+              "Sverdfisk",
+              "Sjøstjerne",
+              "Kreps",
+              "Manet"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "sport": {
+    "title": "Sport",
+    "description": "Spørsmål om idretter, regler og kjente sportsbegreper.",
+    "quizzes": [
+      {
+        "name": "Sport 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "I hvilken idrett kan du utføre et \"sykkelspark\"?",
+            "options": [
+              "Fotball (fotball)",
+              "Basketball",
+              "Rugby",
+              "Tennis"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er kjent for å finne opp sumobryting?",
+            "options": [
+              "Japan",
+              "Kina",
+              "India",
+              "Thailand"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket dyr brukes i den tradisjonelle polosporten?",
+            "options": [
+              "Hest",
+              "Kamel",
+              "Elefant",
+              "Yak"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken sport er også kjent som bordtennis?",
+            "options": [
+              "Ping Pong",
+              "Badminton",
+              "Squash",
+              "Tennis"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken idrett bruker begrepene 'streik' og 'reserve'?",
+            "options": [
+              "Bowling",
+              "Baseball",
+              "Cricket",
+              "Golf"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft": {
+    "title": "Minecraft",
+    "description": "Quiz om Minecraft med spørsmål om mobs, ressurser og dimensjoner.",
+    "quizzes": [
+      {
+        "name": "Minecraft 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva heter den grønne skapningen som eksploderer?",
+            "options": [
+              "Creeper",
+              "Zombie",
+              "Skjelett",
+              "Slim"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket verktøy er best for å grave stein og murstein?",
+            "options": [
+              "Hakke",
+              "Skuffe",
+              "Øks",
+              "Bore"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på dimensjonen der du kjemper mot Ender Dragon?",
+            "options": [
+              "Slutten",
+              "Det nedre",
+              "Oververdenen",
+              "Tomrommet"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken ressurs trenger du for å handle med landsbyboere?",
+            "options": [
+              "Smaragd",
+              "Eple",
+              "Gull",
+              "Stryke"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken blokk kan du bruke for å lage en portal til Nether?",
+            "options": [
+              "Obsidian",
+              "Netherrack",
+              "Brostein",
+              "Berggrunn"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "sjakk": {
+    "title": "Sjakk",
+    "description": "Test sjakkforståelsen din med regler, trekk og taktiske begreper.",
+    "quizzes": [
+      {
+        "name": "Sjakk 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva heter brikken som bare kan bevege seg diagonalt?",
+            "options": [
+              "Biskop",
+              "Ridder",
+              "Dronning"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er betegnelsen på en situasjon der en konge er under angrep og ikke kan rømme?",
+            "options": [
+              "Sjakkmatt",
+              "Stillestående",
+              "En passant",
+              "Ropering"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på sjakkstrategien som innebærer å ofre en brikke for å få en fordel?",
+            "options": [
+              "Gambit",
+              "Gaffel",
+              "Pin",
+              "Grillspyd"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på det spesielle trekket der en konge og et tårn bytter plass?",
+            "options": [
+              "Ropering",
+              "Forfremmelse",
+              "Capture",
+              "Gaffel"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket stykke er involvert i 'en passant'?",
+            "options": [
+              "Bonde",
+              "Dronning",
+              "Biskop",
+              "Ridder"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "andre-verdenskrig": {
+    "title": "Andre verdenskrig",
+    "description": "Spørsmål om sentrale hendelser, operasjoner og aktører i andre verdenskrig.",
+    "quizzes": [
+      {
+        "name": "Andre verdenskrig 1",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hvilke land dannet aksemaktene under andre verdenskrig?",
+            "options": [
+              "Tyskland, Italia og Japan",
+              "Frankrike, Storbritannia og Russland",
+              "Kina, India og Australia",
+              "Canada, Mexico og Brasil"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land ble angrepet av Japan i 1941, noe som førte til at det gikk inn i andre verdenskrig?",
+            "options": [
+              "USA",
+              "Kina",
+              "India",
+              "Australia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilke to land var de første som erklærte krig mot Tyskland?",
+            "options": [
+              "Storbritannia og Frankrike",
+              "Italia og Hellas",
+              "Norge og Danmark",
+              "Polen og Russland"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva het operasjonen som markerte den allierte invasjonen av Normandie i 1944?",
+            "options": [
+              "Operasjon Overlord",
+              "Operasjon Barbarossa",
+              "Operasjon fakkel",
+              "Operasjon Hage"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var navnet på kodeknusingsmaskinen utviklet av britene for å knekke tyske chiffer?",
+            "options": [
+              "Bombe",
+              "Turing",
+              "Lorenz",
+              "Enigma"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "forste-verdenskrig": {
+    "title": "Første verdenskrig",
+    "description": "Spørsmål om årsaker, allianser og viktige hendelser i første verdenskrig.",
+    "quizzes": [
+      {
+        "name": "Første verdenskrig 1",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hvilket land avga den første krigserklæringen i første verdenskrig?",
+            "options": [
+              "Østerrike-Ungarn",
+              "Serbia",
+              "Russland",
+              "Tyskland"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva het det britiske passasjerskipet som ble senket av en tysk ubåt i 1915?",
+            "options": [
+              "Lusitania",
+              "Titanic",
+              "Britannia",
+              "OL"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var kallenavnet gitt til den typen krigføring som innebar å grave skyttergraver og slåss fra dem?",
+            "options": [
+              "skyttergravskrigføring",
+              "Geriljakrigføring",
+              "Skitt krigføring",
+              "Beleiringskrigføring"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva fikk Storbritannia til å slutte seg til første verdenskrig?",
+            "options": [
+              "Tyske tropper marsjerte gjennom Belgia",
+              "Tyske bombeangrep mot London",
+              "Tysk bruk av ulovlige kjemikalier",
+              "Tyskere senker britiske sivile skip"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva het alliansen mellom Tyskland, Østerrike-Ungarn og Italia?",
+            "options": [
+              "Trippelallianse",
+              "Aksemaktene",
+              "Trippelententen",
+              "Folkeforbundet"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "luau": {
+    "title": "Luau",
+    "description": "Test kunnskap om programmeringsspråket Luau og grunnleggende syntaks.",
+    "quizzes": [
+      {
+        "name": "Luau 1",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hva er nøkkelordet for å definere en funksjon i Luau?",
+            "options": [
+              "funksjon",
+              "def",
+              "lokale",
+              "sub"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er syntaksen for å lage en kommentar i Luau?",
+            "options": [
+              "-- kommentar",
+              "// kommentar",
+              "# kommentar",
+              "' kommentar"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er datatypen for lagring av flere verdier i Luau?",
+            "options": [
+              "bord",
+              "array",
+              "liste",
+              "sett"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvordan erklærer du et bord i Luau?",
+            "options": [
+              "lokal tabell = {}",
+              "lokal tabell = []",
+              "lokal tabell = table.new()",
+              "lokal tabell = ()"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er symbolet for å sammenkoble strenger i Luau?",
+            "options": [
+              "..",
+              "+",
+              "&",
+              "%"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "astronomi": {
+    "title": "Astronomi",
+    "description": "Utforsk universet med spørsmål om planeter, stjerner og kosmiske fenomener.",
+    "quizzes": [
+      {
+        "name": "Astronomi 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva heter dvergplaneten som en gang ble ansett som en niende planet i vårt solsystem?",
+            "options": [
+              "Pluto",
+              "Ceres",
+              "Eris",
+              "Haumea"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter teorien som beskriver hvordan universet begynte med en massiv utvidelse fra et enkelt punkt?",
+            "options": [
+              "Big Bang-teorien",
+              "Steady State-teorien",
+              "Inflasjonsteorien",
+              "Stringteorien"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter den største planeten i vårt solsystem?",
+            "options": [
+              "Jupiter",
+              "Saturn",
+              "Jord",
+              "Neptun"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er betegnelsen på en gruppe stjerner som danner et gjenkjennelig mønster?",
+            "options": [
+              "En konstellasjon",
+              "En tåke",
+              "En klynge",
+              "En galakse"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter den største månen i vårt solsystem?",
+            "options": [
+              "Ganymedes",
+              "Titan",
+              "Io",
+              "Europa"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "memes": {
+    "title": "Memes",
+    "description": "Internettkultur og kjente memes fra ulike plattformer.",
+    "quizzes": [
+      {
+        "name": "Memes 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hvilken meme viser en hund som sitter i et brennende rom?",
+            "options": [
+              "Dette er greit",
+              "Doge",
+              "Gretten katt",
+              "Ulykke Brian"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på froskekarakteren som ofte forbindes med uttrykket \"føler seg bra\"?",
+            "options": [
+              "Pepe",
+              "Kermit",
+              "Frogger",
+              "Freddy"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er betegnelsen på et meme som ser lavkvalitets og pikselert ut?",
+            "options": [
+              "Frityrstekt",
+              "Takk",
+              "Cringe",
+              "Ironisk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket dyr er assosiert med «Doge»-memet?",
+            "options": [
+              "Shiba Inu",
+              "Gretten katt",
+              "Tastatur Kat",
+              "Nyan Cat"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på meme med en manns hode som stikker ut av en stund toalettskål?",
+            "options": [
+              "Skibidi Toalett",
+              "TF2 fyr",
+              "Fanum Skatt",
+              "Smurfekatt"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "anime": {
+    "title": "Anime",
+    "description": "Spørsmål om populære anime-serier, karakterer og univers.",
+    "quizzes": [
+      {
+        "name": "Anime 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva heter hovedpersonen i Naruto?",
+            "options": [
+              "Naruto Uzumaki",
+              "Naruto Uchiha",
+              "Kakashi Naruto",
+              "Itachi Uchiha"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter piratbesetningen som Monkey D. Luffy leder i One Piece?",
+            "options": [
+              "Straw Hat Pirates",
+              "Svartskjegg pirater",
+              "Rødt hår pirater",
+              "Hvitskjegg pirater"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på den kraftige notatboken som kan drepe alle hvis navn er skrevet i den?",
+            "options": [
+              "Dødsnotat",
+              "Kira Merk",
+              "Shinigami Note",
+              "Livsnotat"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "I Death Note, hvordan oppdager Light Yagami først den beryktede notatboken?",
+            "options": [
+              "Han ser det falle ned fra himmelen",
+              "Han får den i gave fra en venn",
+              "Den blir levert til ham i en mystisk boks",
+              "Han finner den på t-banen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter hovedpersonen i Pokémon-serien?",
+            "options": [
+              "Ask Ketchum",
+              "Naruto Uzumaki",
+              "Gary Oak",
+              "Pikachu"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "matematikk": {
+    "title": "Matematikk",
+    "description": "Test regneferdigheter og begreper fra grunnleggende til avansert matematikk.",
+    "quizzes": [
+      {
+        "name": "Matematikk 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva er verdien av PI (avrundet til to desimaler)?",
+            "options": [
+              "3.14",
+              "3.15",
+              "3.16",
+              "3.17"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Egenskapen som sier at a + b = b + a har hvilket navn?",
+            "options": [
+              "Kommutativ egenskap",
+              "Assosiativ eiendom",
+              "Fordelingseiendom",
+              "Identitetseiendom"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er formelen for arealet av en sirkel?",
+            "options": [
+              "pi *r^2",
+              "2 * pi * r",
+              "pi * d",
+              "pi * r"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter grenen av matematikk som studerer former og vinkler?",
+            "options": [
+              "Geometri",
+              "Algebra",
+              "Regning",
+              "Aritmetikk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er verdien av x i ligningen 2x + 5 = 13?",
+            "options": [
+              "4",
+              "3",
+              "5",
+              "6"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Matematikk 2",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hva heter teoremet som sier at a² + b² = c² for en rettvinklet trekant?",
+            "options": [
+              "Pythagoras teorem",
+              "Fermats siste teorem",
+              "Binomial teorem",
+              "Euklids teorem"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er den deriverte av e^x?",
+            "options": [
+              "e^x",
+              "x*e^(x-1)",
+              "ln(x)",
+              "1/e^x"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter konstanten som er omtrent lik 2,71828?",
+            "options": [
+              "Eulers nummer",
+              "Det gylne snitt",
+              "PI",
+              "Planck er konstant"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter sekvensen som begynner med 1, 1, 2, 3, 5, 8, ...?",
+            "options": [
+              "Fibonacci-sekvens",
+              "Aritmetisk sekvens",
+              "Geometrisk sekvens",
+              "Harmonisk sekvens"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter grenen av matematikk som omhandler mønstre og sekvenser?",
+            "options": [
+              "Kombinatorikk",
+              "Algebra",
+              "Regning",
+              "Geometri"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "den-kalde-krigen": {
+    "title": "Den kalde krigen",
+    "description": "Spørsmål om konflikter, politikk og hendelser under den kalde krigen.",
+    "quizzes": [
+      {
+        "name": "Den kalde krigen 1",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "I 1946 populariserte Winston Churchill hvilket begrep som ble brukt for å beskrive sovjetiske forhold til vestlige makter?",
+            "options": [
+              "Jernteppe",
+              "Gjensidig sikret ødeleggelse",
+              "Quagmire",
+              "Fare for samfunnet"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var navnet på det sovjetiske etterretningsbyrået, ofte sitert som motstykket til CIA?",
+            "options": [
+              "KGB",
+              "ICBM",
+              "SALT",
+              "DMZ"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "DEFCON-systemet ble utviklet i 1959 og har fem trinn med militær beredskap. Hvilken DEFCON-rating brukes når et atomangrep er nært forestående eller allerede er i gang?",
+            "options": [
+              "DEFCON 1",
+              "DEFCON 3",
+              "DEFCON 5"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Selv om de aldri helt forlot organisasjonen, i 1966, hvilket land trakk militæret sitt fra NATO og utviste NATOs hovedkvarter fra sine grenser?",
+            "options": [
+              "Frankrike",
+              "USA",
+              "Polen",
+              "Vest-Tyskland"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Ofte sett på som den sovjetiske versjonen av USAs Vietnam-sump, begynte U.S.S.R.s 10 år lange invasjon av hvilket land i 1979?",
+            "options": [
+              "Afghanistan",
+              "Polen",
+              "Tsjekkoslovakia",
+              "Ukraina"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "kjemi": {
+    "title": "Kjemi",
+    "description": "Spørsmål om stoffer, reaksjoner og sentrale kjemibegreper.",
+    "quizzes": [
+      {
+        "name": "Kjemi 1",
+        "difficulty": "vanskelig",
+        "questions": [
+          {
+            "questionText": "Hva er den kjemiske formelen til vann?",
+            "options": [
+              "H2O",
+              "CO2",
+              "O2",
+              "2HO"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter prosessen som omdanner et fast stoff til en gass uten å gå gjennom en flytende tilstand?",
+            "options": [
+              "Sublimering",
+              "Fordampning",
+              "Kondensasjon",
+              "Deponering"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter elementet med symbolet K?",
+            "options": [
+              "Kalium",
+              "Kalsium",
+              "Krypton",
+              "Kalium"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter prosessen som skiller en blanding av væsker basert på deres kokepunkt?",
+            "options": [
+              "Destillasjon",
+              "Filtrering",
+              "Krystallisering",
+              "Kromatografi"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er navnet på den organiske forbindelsen som har den generelle formelen CnH2n+2?",
+            "options": [
+              "Alkan",
+              "Alkene",
+              "Alkyn",
+              "Ammoniakk"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "biologi": {
+    "title": "Biologi",
+    "description": "Lær om celler, kropp, genetikk og livsprosesser i naturen.",
+    "quizzes": [
+      {
+        "name": "Biologi 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva er navnet på prosessen der planter lager sin egen mat?",
+            "options": [
+              "Fotosyntese",
+              "Respirasjon",
+              "Transpirasjon",
+              "Fermentering"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er den minste livsenheten?",
+            "options": [
+              "Celle",
+              "Atom",
+              "Molekyl",
+              "Organ"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedfunksjonen til røde blodlegemer?",
+            "options": [
+              "Oksygentransport",
+              "Bekjempe infeksjoner",
+              "Blodpropp",
+              "Produserer antistoffer"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er hovedbyggesteinene i proteiner?",
+            "options": [
+              "Aminosyrer",
+              "Fettsyrer",
+              "Nukleinsyrer",
+              "Glukose"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter molekylet som bærer genetisk informasjon i de fleste levende organismer?",
+            "options": [
+              "DNA",
+              "Celle",
+              "ATP",
+              "ADP"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "ordtak-og-idiomer": {
+    "title": "Ordtak og idiomer",
+    "description": "Forstår du uttrykkene? Test deg i ordtak og idiomer.",
+    "quizzes": [
+      {
+        "name": "Ordtak og idiomer 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hvilket formspråk betyr å avsløre en hemmelighet?",
+            "options": [
+              "Slipp katten ut av sekken",
+              "Mal byen rød",
+              "Slå rundt busken",
+              "Bite i kulen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva refererer 'a piece of cake' til?",
+            "options": [
+              "Noe veldig enkelt",
+              "En dessert",
+              "En vanskelig oppgave",
+              "En liten porsjon"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket formspråk betyr å være i trøbbel?",
+            "options": [
+              "I varmt vann",
+              "På sky ni",
+              "Under været",
+              "Ut av det blå"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva betyr \"hold hestene dine\"?",
+            "options": [
+              "Vær tålmodig",
+              "Ri på hester",
+              "Jobb hardt",
+              "Gå raskere"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva betyr \"brekke et bein\"?",
+            "options": [
+              "Lykke til",
+              "Faktisk bryte et bein",
+              "Løp vekk",
+              "Ta en pause"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "internett-slang": {
+    "title": "Internett-slang",
+    "description": "Quiz om forkortelser, uttrykk og språkbruk fra internett.",
+    "quizzes": [
+      {
+        "name": "Internett-slang 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva står 'LOL' for?",
+            "options": [
+              "Le høyt",
+              "Masse kjærlighet",
+              "Bor på land",
+              "Se ut til venstre"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva står 'FOMO' for?",
+            "options": [
+              "Frykt for å gå glipp",
+              "Friends of My Office",
+              "Glad i å gå videre",
+              "Full av mange alternativer"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva står \"IMO\" for?",
+            "options": [
+              "Etter min mening",
+              "Internett-postordre",
+              "Det er åpenbart mandag",
+              "Jeg mener Ok"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er meningen med 'SMH'?",
+            "options": [
+              "Rister på hodet",
+              "Så mye hat",
+              "Send mer hjelp",
+              "Knuser hodet mitt"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva står 'IIRC' for?",
+            "options": [
+              "Hvis jeg husker riktig (hvis jeg husker riktig)",
+              "Det er virkelig kult (Er det virkelig kult)",
+              "Jeg er utrolig rik, barn",
+              "Interessant informasjon krever vurdering"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Internett-slang 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva betyr \"FTFY\"?",
+            "options": [
+              "Fikset det for deg",
+              "For Året etter",
+              "Glem det, finn deg selv",
+              "Raskere enn femti Yaks"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er meningen med 'AMA'?",
+            "options": [
+              "Spør meg hva som helst",
+              "Alltid å gjøre antagelser",
+              "Nok en ubesvart avtale",
+              "Fantastisk Meme Alert"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva står \"YOLO\" for?",
+            "options": [
+              "Du lever bare én gang",
+              "Dine egne livsforpliktelser",
+              "Gårsdagens gamle løk",
+              "Roper høyt ofte"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva står 'OMW' for?",
+            "options": [
+              "På vei",
+              "Å mitt ord",
+              "Bare menn velkommen",
+              "Offisiell Meme-nettsted"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er meningen med 'ITT'?",
+            "options": [
+              "I denne tråden",
+              "Jeg skal fortelle dem",
+              "Jeg tror det",
+              "Jeg snakket med"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gjett-filmen": {
+    "title": "Gjett filmen",
+    "description": "Kjenn igjen filmer ut fra handling, karakterer og beskrivelser.",
+    "quizzes": [
+      {
+        "name": "Gjett filmen 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hvilken film viser en ung trollmann som går på Galtvort-skolen?",
+            "options": [
+              "Harry Potter og De vises stein",
+              "Ringenes Herre",
+              "The Chronicles of Narnia",
+              "Trollmannen fra Oz"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken film forteller historien om en klovnefisk som leter etter sønnen sin over havet?",
+            "options": [
+              "Finner Nemo",
+              "Shark Tale",
+              "Den lille havfruen",
+              "Frigjør Billy"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken sci-fi-film viser romvesener med blå hud som kalles Na'vi?",
+            "options": [
+              "Avatar",
+              "Star Wars",
+              "Alien",
+              "Distrikt 9"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "I hvilken film spiller Tom Hanks en mann strandet på en øy med kun en volleyball for selskap?",
+            "options": [
+              "Kast bort",
+              "Terminalen",
+              "Forrest Gump",
+              "Redder menig Ryan"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken film forteller historien om en gruppe leker som våkner til liv når mennesker ikke er i nærheten?",
+            "options": [
+              "Toy Story",
+              "Lego-filmen",
+              "Små soldater",
+              "Wreck-It Ralph"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gjett-boken": {
+    "title": "Gjett boken",
+    "description": "Kjenn igjen bøker fra handlinger, figurer og litterære hint.",
+    "quizzes": [
+      {
+        "name": "Gjett boken 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "I hvilken bok faller en ung jente ved navn Alice ned i et kaninhull inn i en fantastisk verden?",
+            "options": [
+              "Alice i Eventyrland",
+              "Den fantastiske trollmannen fra Oz",
+              "Peter Pan",
+              "Den hemmelige hagen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken bok forteller historien om en karakter som heter Bilbo Baggins?",
+            "options": [
+              "Hobbiten",
+              "Ringenes Herre",
+              "Silmarillion",
+              "Eragon"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken bok inneholder et dystopisk samfunn der bøker brennes?",
+            "options": [
+              "Fahrenheit 451",
+              "Brave New World",
+              "Fluenes herre",
+              "Slakteri-Fem"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken bok forteller historien om en gutt som heter Charlie som vinner en gullbillett?",
+            "options": [
+              "Charlie og sjokoladefabrikken",
+              "Charlie og den gigantiske fersken",
+              "Wonkas sjokoladefabrikk",
+              "BFG"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken bok forteller historien om en gutt som aldri vokser opp og bor i Neverland?",
+            "options": [
+              "Peter Pan",
+              "Den fantastiske trollmannen fra Oz",
+              "Alice i Eventyrland",
+              "The Chronicles of Narnia"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "musikk": {
+    "title": "Musikk",
+    "description": "Spørsmål om artister, instrumenter, sjangre og musikkhistorie.",
+    "quizzes": [
+      {
+        "name": "Musikk 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilket band ga ut albumet 'The Dark Side of the Moon'?",
+            "options": [
+              "Pink Floyd",
+              "The Beatles",
+              "Led Zeppelin",
+              "The Rolling Stones"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva kaller du ordene i en sang?",
+            "options": [
+              "Tekster",
+              "Melodi",
+              "Harmoni",
+              "Rytme"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse er ikke et blåseinstrument?",
+            "options": [
+              "Fiolin",
+              "Fløyte",
+              "Klarinett",
+              "Saksofon"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter nasjonalsangen til USA?",
+            "options": [
+              "The Star Spangled Banner",
+              "Gud bevare dronningen",
+              "La Marseillaise",
+              "O Canada"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken av disse er ikke en type gitar?",
+            "options": [
+              "Cello",
+              "Akustisk",
+              "Elektrisk",
+              "Bass"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "hjernerot": {
+    "title": "Hjernerot",
+    "description": "Morsom quiz med virale uttrykk og absurd netthumor.",
+    "quizzes": [
+      {
+        "name": "Hjernerot 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva er ordet for de rare små mennene som sitter fast på toaletter?",
+            "options": [
+              "Skibidi",
+              "Toalett slanger",
+              "Rørlegger nisser",
+              "Skålgutter"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter det når noen snakker lenge på en irriterende måte?",
+            "options": [
+              "Japping",
+              "Woofing",
+              "Ranting",
+              "Monolog"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket begrep beskriver noen som er litt av en ensom ulv – kanskje enda bedre enn en alfa?",
+            "options": [
+              "Sigma",
+              "Omega",
+              "Beta",
+              "Zeta"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "I hvilken amerikansk stat er det mest sannsynlig at ville, rare, uheldige ting vil skje, ifølge internett?",
+            "options": [
+              "Bare i Ohio",
+              "Bare i Alaska",
+              "Bare i Florida",
+              "Bare i Mississippi"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva heter den lilla McDonald's-drikken?",
+            "options": [
+              "Grimace Shake",
+              "Sussy Punch",
+              "Blueberry McFlurry",
+              "Utløpt Shake"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Hjernerot 2",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva betyr det å være 'kokt'?",
+            "options": [
+              "I en virkelig dårlig posisjon",
+              "Ekstremt sulten",
+              "Føler meg veldig sliten",
+              "Spent eller begeistret"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Fyll ut feltet: 'Ehm, hva faen'?",
+            "options": [
+              "sigma",
+              "hund",
+              "pokker",
+              "alfa"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er betegnelsen på overdreven ros eller kompliment til noen?",
+            "options": [
+              "Innglassing",
+              "Rizzing",
+              "Gassing",
+              "Fawning"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem er hovedfienden til Skibidi Toilet?",
+            "options": [
+              "Kameramann",
+              "Vaktmester",
+              "Skibidi vask",
+              "G-Man"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Fullfør sitatet: 'Bare legg ___ i posen.'",
+            "options": [
+              "Frites",
+              "Penger",
+              "Skibidi",
+              "Rizz"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "gamerord": {
+    "title": "Gamerord",
+    "description": "Lær vanlige spilluttrykk og slang brukt i gamingmiljøer.",
+    "quizzes": [
+      {
+        "name": "Gamerord 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva betyr 'GG'?",
+            "options": [
+              "Bra spill",
+              "Bli bra",
+              "Flott mål",
+              "Gamer jente"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken setning ber spillerne ta en pause i den virkelige verden og gå ut?",
+            "options": [
+              "Trykk på gress",
+              "Spis en salat",
+              "Gå av",
+              "Chillax"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "En 'Noob' er en:",
+            "options": [
+              "Ny spiller",
+              "Night Ops Bot",
+              "Jukser",
+              "Nintendo Spectator"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "'OP' står for:",
+            "options": [
+              "Overmannet",
+              "Original plakat",
+              "Online spiller",
+              "Åpen fest"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvis noen «buffer», er de:",
+            "options": [
+              "Slår på",
+              "Trener",
+              "Rengjøringsutstyr",
+              "Tar skade"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Gamerord 2",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Når utviklere svekker et sterkt våpen, ___ det:",
+            "options": [
+              "Nerf",
+              "Buff",
+              "Lapp",
+              "Hurtigreparasjon"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "'Camping' i skyttere betyr:",
+            "options": [
+              "Bo på ett sted",
+              "Juks",
+              "Samarbeidsmodus",
+              "Bygge leirer"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "En 'clutch' er en:",
+            "options": [
+              "Siste andre seier",
+              "Bildel",
+              "Team Carry",
+              "Kontrollerfeil"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvis en spiller prøver å slå et spill så fort som mulig, prøver de en ...",
+            "options": [
+              "Speedrun",
+              "Speed ​​Challenge",
+              "Tidsprøve",
+              "Tidsangrep"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva kalles handlingen med å trekke fiender bort for å bekjempe dem individuelt?",
+            "options": [
+              "Kiting",
+              "Buffing",
+              "Turtling",
+              "Zerging"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "strommekultur": {
+    "title": "Strømmekultur",
+    "description": "Spørsmål om strømmetjenester, emotes og livekultur på nett.",
+    "quizzes": [
+      {
+        "name": "Strømmekultur 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "'IRL' står for:",
+            "options": [
+              "I det virkelige liv",
+              "Liste over internettregler",
+              "Varebelønningsnivå",
+              "Instant Raid Loot"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "\"PogChamp\"-emosjonen uttrykker:",
+            "options": [
+              "Spenning",
+              "Skuffelse",
+              "Sinne",
+              "Tristhet"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "En seer som ser stille uten å chatte, kalles en:",
+            "options": [
+              "Lurker",
+              "NPC",
+              "Nonchatter",
+              "Sneaker"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Du kan heie på streamere med hvilken valuta?",
+            "options": [
+              "Bits",
+              "Mynter",
+              "Studiepoeng",
+              "Superchatter"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er betegnelsen på når en streamer sender seerne til en annen direktesending?",
+            "options": [
+              "Raid",
+              "Bytt",
+              "Stafett",
+              "Overføre"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "datamaskinvare": {
+    "title": "Datamaskinvare",
+    "description": "Test kunnskapen din om komponenter og maskinvare i datamaskiner.",
+    "quizzes": [
+      {
+        "name": "Datamaskinvare 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilken komponent regnes som \"hjernen\" til en datamaskin?",
+            "options": [
+              "CPU",
+              "VÆR",
+              "GPU",
+              "HDD"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva står GPU for?",
+            "options": [
+              "Grafikkbehandlingsenhet",
+              "Generell behandlingsenhet",
+              "Spillytelsesenhet",
+              "Global behandlingsenhet"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken enhet måles datamaskinens minne (RAM) vanligvis i?",
+            "options": [
+              "Gigabyte",
+              "Volt",
+              "Hertz",
+              "Watt"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er standardporten for å koble til en skjerm?",
+            "options": [
+              "HDMI",
+              "USB",
+              "Ethernet",
+              "PS/2"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken type minne mister alle data når datamaskinen slås av?",
+            "options": [
+              "VÆR",
+              "HDD",
+              "SSD",
+              "ROM"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "antikke-sivilisasjoner": {
+    "title": "Antikke sivilisasjoner",
+    "description": "Spørsmål om kultur, oppfinnelser og historie fra antikke samfunn.",
+    "quizzes": [
+      {
+        "name": "Antikke sivilisasjoner 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvilken gammel sivilisasjon hadde gladiatorkamper?",
+            "options": [
+              "romerne",
+              "grekere",
+              "egyptere",
+              "kinesisk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken gammel sivilisasjon bygde pyramidene i Giza?",
+            "options": [
+              "Egypt",
+              "Inca",
+              "Roma",
+              "Hellas"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva var hovedstaden i Romerriket?",
+            "options": [
+              "Roma",
+              "Athen",
+              "Alexandria",
+              "Konstantinopel"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken sivilisasjon oppfant demokratiet?",
+            "options": [
+              "Antikkens Hellas",
+              "Roma",
+              "Egypt",
+              "Persia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken gammel sivilisasjon oppfant papir?",
+            "options": [
+              "kinesisk",
+              "egyptere",
+              "grekere",
+              "persere"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "verdensrekorder": {
+    "title": "Verdensrekorder",
+    "description": "Quiz om imponerende rekorder og ekstreme fakta fra hele verden.",
+    "quizzes": [
+      {
+        "name": "Verdensrekorder 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Hva er det raskeste landdyret?",
+            "options": [
+              "Gepard",
+              "Løve",
+              "Hest",
+              "Antilope"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilken bok har rekorden for å være den mest solgte og oversatte i historien?",
+            "options": [
+              "Bibelen",
+              "Ringenes Herre",
+              "Harry Potter og de vises stein",
+              "Koranen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket land er det største landet etter landareal?",
+            "options": [
+              "Russland",
+              "Kina",
+              "USA",
+              "Canada"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket er det høyeste fjellet i verden?",
+            "options": [
+              "Mount Everest",
+              "K2",
+              "Kilimanjaro-fjellet",
+              "Fuji-fjellet"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva er det lengste ordet i en større ordbok?",
+            "options": [
+              "Pneumonoultramikroskopisk silikovulkanokoniose",
+              "Supercalifragilisticexpialidocious",
+              "Hippopotomonstrosesquippedaliofobi",
+              "Floccinaucinihilipilifisering"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  }
+}

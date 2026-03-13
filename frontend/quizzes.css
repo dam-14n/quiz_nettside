@@ -1,0 +1,133 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+main > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#timer {
+    text-align: center;
+    vertical-align: center;
+    line-height: 5rem;
+    height: 5rem;
+    width: 140px;
+    margin: 0;
+}
+
+#timer.low-time {
+    color: red;
+    font-size: 4rem;
+    position: relative;    
+}
+
+#answer-list {
+    margin-top: 100px;
+    width: 50vw;
+
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    gap: 40px;
+
+}
+
+#question-text {
+    text-align: center;
+}
+
+#answer-list > button {
+    font-size: var(--font-size, 2rem);
+
+    width: 100%;
+    height: 100%;
+
+    padding: 40px;
+    border: 3px solid white;
+    border-radius: 10px;
+
+    background-color: rgb(36, 0, 77);
+    box-shadow: var(--shadow-size) var(--shadow-size) black;
+    color: wheat;
+
+    /* Default shadow size when not pushed */
+    --shadow-size: 5px
+}
+
+/* Do not animate hover effects if one button has been pressed */
+#answer-list > button:hover:not(.answered) {
+    box-shadow: 3px 3px black;
+}
+
+#answer-list > .pushed {
+    --shadow-size: 2px;
+}
+
+#answer-list > .correct {
+    background-color: limegreen;
+    box-shadow: var(--shadow-size) var(--shadow-size) green;
+}
+
+#answer-list > .wrong {
+    background-color: crimson;
+    box-shadow: var(--shadow-size) var(--shadow-size) darkred;
+}
+
+#end-screen {
+    text-align: center;
+    /* Hidden by default */
+    display: none;
+}
+
+#end-screen > * {
+    font-weight: normal;
+}
+
+#end-screen h1 {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#new-quiz {
+    font-size: 1rem;
+    font-weight: bold;
+
+    padding: 15px 50px;
+    margin-top: 20px;
+
+    border: 3px solid white;
+    border-radius: 10px;
+
+    background-color: rgb(36, 0, 77);
+    box-shadow: 5 5 black;
+    color: white;
+}
+
+#new-quiz:hover {
+    box-shadow: 3px 3px black;
+}
+
+#point-amount {
+    font-weight: bolder;
+}
+
+#feedback {
+    font-style: italic;
+}
+/* 
+#question-screen {
+    display: none;
+}
+
+
+#end-screen {
+    display: block;
+} */
