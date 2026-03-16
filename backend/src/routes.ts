@@ -3,6 +3,7 @@ import {
   getCategoryListHandler,
   getQuizQuestionsBySlugHandler,
   getQuestionAnswerHandler,
+  removeHalfHandler,
 } from "./controllers/quizController.js";
 
 function routes(app: Express) {
@@ -19,6 +20,8 @@ function routes(app: Express) {
     "/api/questions/:questionSlug/correct-answer",
     getQuestionAnswerHandler,
   );
+
+  app.get("/api/questions/:questionSlug/remove-half", removeHalfHandler);
 }
 
 export default routes;

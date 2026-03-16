@@ -3,6 +3,7 @@ import {
   getCategoryList,
   getQuizQuestionsBySlug,
   getQuestionAnswerBySlug,
+  removeHalf,
 } from "../services/quizService.js";
 
 function respondStringified<Args extends unknown[], R>(
@@ -52,8 +53,21 @@ function getQuestionAnswerHandler(req: Request, res: Response) {
   respondStringified(res, getQuestionAnswerBySlug, questionSlug as string);
 }
 
+function removeHalfHandler(req: Request, res: Response) {
+  const questionSlug = req.params.questionSlug;
+  if (!questionSlug) {
+    res.status(400).send("Missing slug");
+    return;
+  }
+  console.log(
+    `Eliminating half of alternatives for question "${questionSlug}"`,
+  );
+  respondStringified(res, removeHalf, questionSlug as string);
+}
+
 export {
   getCategoryListHandler,
   getQuizQuestionsBySlugHandler,
   getQuestionAnswerHandler,
+  removeHalfHandler,
 };

@@ -4,14 +4,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 main > * {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
+
+#question-screen {
+    margin-bottom: 120px;
 }
 
 #timer {
@@ -21,6 +25,7 @@ main > * {
     height: 5rem;
     width: 140px;
     margin: 0;
+    margin-top: 50px;
 }
 
 #timer.low-time {
@@ -30,7 +35,7 @@ main > * {
 }
 
 #answer-list {
-    margin-top: 100px;
+    margin: 50px 0;
     width: 50vw;
 
     display: grid;
@@ -63,7 +68,7 @@ main > * {
 }
 
 /* Do not animate hover effects if one button has been pressed */
-#answer-list > button:hover:not(.answered) {
+#answer-list > button:hover:not(.answered):not(:disabled) {
     box-shadow: 3px 3px black;
 }
 
@@ -79,6 +84,44 @@ main > * {
 #answer-list > .wrong {
     background-color: crimson;
     box-shadow: var(--shadow-size) var(--shadow-size) darkred;
+}
+
+#answer-list > :disabled {
+    background-color: grey;
+}
+
+#cheats {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+}
+
+#cheats > button {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    padding: 20px 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+
+    background-color: rgb(31, 99, 193);
+    box-shadow: var(--shadow-size) var(--shadow-size) black;
+    color: wheat;
+
+    --shadow-size: 5px
+}
+
+#cheats > button:hover:not(:disabled) {
+    box-shadow: 3px 3px black;
+}
+
+#cheats > button:disabled {
+    background-color: grey;
+    --shadow-size: 2px
 }
 
 #end-screen {

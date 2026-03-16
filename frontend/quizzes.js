@@ -1,4 +1,6 @@
 const quizSlug = new URLSearchParams(location.search).get("quiz")
+const BASE_URL = new URL("http://localhost:4000/") 
+
 if (!quizSlug) {
     throw new Error("No quiz slug query found")
 }
@@ -23,7 +25,7 @@ async function wait(milliSeconds) {
     })
 }
 
-const questionArray = getData(`http://localhost:4000/api/quizzes/${quizSlug}/questions`);
+const questionArray = getData(new URL(`/api/quizzes/${quizSlug}/questions`, BASE_URL));
 
 const questionTextHeader = document.getElementById("question-text");
 const answerList = document.getElementById("answer-list");
@@ -32,6 +34,12 @@ const endScreen = document.getElementById("end-screen");
 const pointAmount = document.getElementById("point-amount");
 const feedbackText = document.getElementById("feedback")
 const timer = document.getElementById("timer");
+const removeHalfButton = document.getElementById("remove-half");
+
+const introAudio = new Audio("./assets/intro.mp3");
+const timeoutSound = new Audio("./assets/timeout.mp3");
+const removeHalfSound = new Audio("./assets/5050.mp3");
+const questionSound = new Audio("./assets/question.mp3")
 
 let answerButtons = [];
 // Seconds to answer question 
@@ -56,13 +64,39 @@ function disableButtons() {
     }
 }
 
+function fadeIn(audioElement, startDelay, fadeInTime) {
+  let i = 0;
+  const steps = 10;
+  let interval = fadeInTime / steps;
+  audioElement.play();
+  setTimeout(function () {
+    let intervalId = setInterval(function() {
+      let volume = (1 / steps) * i;
+      audioElement.volume = volume;
+      if(++i >= steps)
+        clearInterval(intervalId);
+    }, interval);
+  }, startDelay);
+}
+
+function startBackgroundMusic() {
+    fadeIn(questionSound, 0, 1000);
+}
+
+function stopBackgroundMusic() {
+    // Stop music by pausing and resetting position
+    questionSound.pause();
+    questionSound.currentTime = 0;
+}
+
+
 // if answerIndex not specified, only show correct answers
 async function showCorrectAndGrade(answerIndex) {
     if (answerPicked === true) {
         return;
     }
     answerPicked = true;
-    const correctAnswerIndex = await getData(`http://localhost:4000/api/questions/${currentQuestionSlug}/correct-answer`);
+    const correctAnswerIndex = await getData(new URL(`/api/questions/${currentQuestionSlug}/correct-answer`, BASE_URL));
 
     if (typeof answerIndex === "number")  {
         if (answerIndex === correctAnswerIndex) {
@@ -74,6 +108,9 @@ async function showCorrectAndGrade(answerIndex) {
     }
 
     for (const [index, button] of answerButtons.entries()) {
+        if (button.disabled) {
+            continue;
+        }
         if (index === correctAnswerIndex) {
             button.classList.add("correct");
         } else {
@@ -98,6 +135,13 @@ function waitForAnswer() {
     });
 }
 
+// Calculates appropriate font size to keep buttons the same size
+function computeFontSize(textContent) {
+    const size = 900 / textContent.length;
+    return Math.min(32, Math.max(12, size));
+}
+
+
 // Change question text and add answer options
 async function renderQuestion(index) {
     const questions = await questionArray;
@@ -112,6 +156,7 @@ async function renderQuestion(index) {
     for (const [questionIndex, questionText] of question.options.entries()) {
         const questionButton = document.createElement("button");
         questionButton.innerText = questionText;
+        questionButton.style.fontSize = computeFontSize(questionText) + "px";
         answerList.appendChild(questionButton)
 
         answerButtons[questionIndex] = questionButton;
@@ -123,6 +168,27 @@ function cleanUpButtons() {
         button.remove()
     }
 }
+
+// Uses "remove half" hint
+async function removeHalf() {
+    const wrongIndexes = await getData(new URL(`/api/questions/${currentQuestionSlug}/remove-half`, BASE_URL));
+    wrongIndexes.forEach((value, _) => {
+        answerButtons[value].disabled = true;
+    })
+}
+
+// Array of cheat names which have been used this round
+let cheatsUsed = [];
+removeHalfButton.addEventListener("click", () => {
+    if (cheatsUsed.find((v, _) =>  v === "remove-half") || buttonsDisabled === true) {
+        return;
+    }
+    cheatsUsed.push("remove-half");
+    removeHalfButton.disabled = true;
+    removeHalfSound.play();
+    // Let sound play first
+    setTimeout(removeHalf, 500);
+});
 
 async function startTimer() {
     let timerNumber = QUESTION_TIMEOUT;
@@ -136,6 +202,7 @@ async function startTimer() {
         if (timerNumber <= 0) {
             timer.innerText = "0.00";
             disableButtons();
+            timeoutSound.play();
             
             // Flash timer off and on three times
             for (let i = 0; i < 3; i++) {
@@ -157,8 +224,10 @@ async function startTimer() {
 async function runQuestion(questionIndex) {
     await renderQuestion(questionIndex);
     buttonsDisabled = false;
+    startBackgroundMusic();
     // Race question timeout and answer being submitted
     const answerIndex = await Promise.race([startTimer(), waitForAnswer()]);
+    stopBackgroundMusic();
     console.log("Answered or timeout. Index:", answerIndex);
     await showCorrectAndGrade(answerIndex);
 
@@ -207,13 +276,17 @@ function getFeedback(percentage) {
 async function startQuiz() {
     const questions = await questionArray;
     maxPoints = questions.length;
+
+    introAudio.play();
     for (const questionIndex in questions) {
         console.log("Running ", questionIndex);
+        document.title = `Quiz - Spørsmål ${parseInt(questionIndex) + 1}`;
         await runQuestion(parseInt(questionIndex));
         answerPicked = false;
         console.log(`Loading next question: ${parseInt(questionIndex) + 1}`);
     }
 
+    document.title = "Quiz - Resultat"
     const finalPercentage = totalPoints / maxPoints;
 
     quizScreen.style.display = "none";

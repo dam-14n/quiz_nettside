@@ -83,4 +83,42 @@ function getQuestionAnswerBySlug(questionSlug: string) {
   return slugToQuestionMap.get(questionSlug)?.answer_index;
 }
 
-export { getCategoryList, getQuizQuestionsBySlug, getQuestionAnswerBySlug };
+// Eliminates half of the answer options by returning answer indexes which are wrong
+// Amount of indexes it retruns depends on how many answer options the question has;
+// always leaves at least two options as to not reveal the answer
+function removeHalf(questionSlug: string): number[] | undefined {
+  if (!slugToQuestionMap.has(questionSlug)) {
+    return;
+  }
+  const question = slugToQuestionMap.get(questionSlug)!;
+  const answerOptionsAmount = question.options.length;
+  // Don't remove anything if answer only has two options
+  if (answerOptionsAmount <= 2) {
+    return [];
+  }
+
+  // Creates an array with all answer indexes, remove correct one
+  let incorrectIndexes = Array.from(
+    { length: answerOptionsAmount },
+    (_, i) => i,
+  );
+  incorrectIndexes.splice(question.answer_index, 1);
+
+  // Amount of answers to remove from incorrectIndexes before returning
+  // Amount that is left will be answerOptionsAmount - answersToRemove - 1 (correct answer removed)
+  const answersToRemove = Math.floor((answerOptionsAmount - 1) / 2);
+  for (let i = 0; i < answersToRemove; i++) {
+    const indexToRemove = Math.floor(Math.random() * incorrectIndexes.length);
+    incorrectIndexes.splice(indexToRemove, 1);
+  }
+  return incorrectIndexes;
+}
+
+removeHalf("mat-og-drikke-1-q1");
+
+export {
+  getCategoryList,
+  getQuizQuestionsBySlug,
+  getQuestionAnswerBySlug,
+  removeHalf,
+};
