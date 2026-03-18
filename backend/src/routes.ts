@@ -4,6 +4,7 @@ import {
   getQuizQuestionsBySlugHandler,
   getQuestionAnswerHandler,
   removeHalfHandler,
+  getQuizMetaBySlugHandler,
 } from "./controllers/quizController.js";
 
 function routes(app: Express) {
@@ -22,6 +23,8 @@ function routes(app: Express) {
   );
 
   app.get("/api/questions/:questionSlug/remove-half", removeHalfHandler);
+
+  app.get("/api/quizzes/:quizSlug/metadata", getQuizMetaBySlugHandler);
 }
 
 export default routes;

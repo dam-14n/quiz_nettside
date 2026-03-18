@@ -25,21 +25,27 @@ async function wait(milliSeconds) {
     })
 }
 
+const quizMetadata = getData(new URL(`/api/quizzes/${quizSlug}/metadata`, BASE_URL))
 const questionArray = getData(new URL(`/api/quizzes/${quizSlug}/questions`, BASE_URL));
 
 const questionTextHeader = document.getElementById("question-text");
 const answerList = document.getElementById("answer-list");
 const quizScreen = document.getElementById("question-screen");
 const endScreen = document.getElementById("end-screen");
+const introScreen = document.getElementById("intro-screen");
 const pointAmount = document.getElementById("point-amount");
 const feedbackText = document.getElementById("feedback")
 const timer = document.getElementById("timer");
-const removeHalfButton = document.getElementById("remove-half");
+const introQuizName = document.getElementById("quiz-name");
+const introQuizDifficulty = document.getElementById("quiz-difficulty");
 
 const introAudio = new Audio("./assets/intro.mp3");
 const timeoutSound = new Audio("./assets/timeout.mp3");
 const removeHalfSound = new Audio("./assets/5050.mp3");
-const questionSound = new Audio("./assets/question.mp3")
+const questionSound = new Audio("./assets/question.mp3");
+const correctSound = new Audio("./assets/correct.mp3");
+const wrongSound = new Audio("./assets/wrong.mp3");
+const addTimeSound = new Audio("./assets/add_time.mp3");
 
 let answerButtons = [];
 // Seconds to answer question 
@@ -68,25 +74,26 @@ function fadeIn(audioElement, startDelay, fadeInTime) {
   let i = 0;
   const steps = 10;
   let interval = fadeInTime / steps;
-  audioElement.play();
-  setTimeout(function () {
+  setTimeout(function() {
+    audioElement.volume = 0;
+    audioElement.play();
     let intervalId = setInterval(function() {
       let volume = (1 / steps) * i;
       audioElement.volume = volume;
-      if(++i >= steps)
+      if(i++ >= steps)
         clearInterval(intervalId);
     }, interval);
   }, startDelay);
 }
 
+questionSound.loop = true;
 function startBackgroundMusic() {
-    fadeIn(questionSound, 0, 1000);
+    fadeIn(questionSound, 1000, 1500);
 }
 
 function stopBackgroundMusic() {
-    // Stop music by pausing and resetting position
+    // Stop music by pausing
     questionSound.pause();
-    questionSound.currentTime = 0;
 }
 
 
@@ -100,9 +107,11 @@ async function showCorrectAndGrade(answerIndex) {
 
     if (typeof answerIndex === "number")  {
         if (answerIndex === correctAnswerIndex) {
+            correctSound.play();
             console.log("Correct!");
             totalPoints++;
         } else {
+            wrongSound.play();
             console.log("Incorrect!");
         }
     }
@@ -141,7 +150,6 @@ function computeFontSize(textContent) {
     return Math.min(32, Math.max(12, size));
 }
 
-
 // Change question text and add answer options
 async function renderQuestion(index) {
     const questions = await questionArray;
@@ -169,26 +177,50 @@ function cleanUpButtons() {
     }
 }
 
-// Uses "remove half" hint
-async function removeHalf() {
-    const wrongIndexes = await getData(new URL(`/api/questions/${currentQuestionSlug}/remove-half`, BASE_URL));
-    wrongIndexes.forEach((value, _) => {
-        answerButtons[value].disabled = true;
-    })
+class CheatItem {
+    #used = false;
+    constructor(func, button) {
+        // Wrap function to only run when not used and buttons enabled
+        this.func = () => {
+            if (this.#used === false && buttonsDisabled === false) {
+                this.#used = true;
+                func();
+                this.button.disabled = true;
+            }
+        };
+        this.button = button;
+    }
 }
 
-// Array of cheat names which have been used this round
-let cheatsUsed = [];
-removeHalfButton.addEventListener("click", () => {
-    if (cheatsUsed.find((v, _) =>  v === "remove-half") || buttonsDisabled === true) {
-        return;
-    }
-    cheatsUsed.push("remove-half");
-    removeHalfButton.disabled = true;
-    removeHalfSound.play();
-    // Let sound play first
-    setTimeout(removeHalf, 500);
-});
+let cheatItems = [];
+cheatItems.push(new CheatItem(
+    async function() {
+        removeHalfSound.play();
+        // Let sound play first
+        await wait(250);
+        const wrongIndexes = await getData(new URL(`/api/questions/${currentQuestionSlug}/remove-half`, BASE_URL));
+        wrongIndexes.forEach((value, _) => {
+            answerButtons[value].disabled = true;
+        })
+    },
+    document.getElementById("remove-half")
+));
+
+// Time in seconds to add to timer
+// Resets to 0 once time has been added by timer function
+let timeToAdd = 0;
+cheatItems.push(new CheatItem(
+    function() {
+        addTimeSound.play();
+        timeToAdd = 10;
+    },
+    document.getElementById("add-time")
+));
+
+// Connect button events to functions
+for (item of cheatItems) {
+    item.button.addEventListener("click", item.func);
+}
 
 async function startTimer() {
     let timerNumber = QUESTION_TIMEOUT;
@@ -197,8 +229,9 @@ async function startTimer() {
     let lastTime = Date.now();
     while (answerPicked === false) {
         const delta = (Date.now() - lastTime) / 1000;
-        timerNumber = (timerNumber - delta).toFixed(2);
-        timer.innerText = timerNumber;
+        timerNumber = timerNumber - delta + timeToAdd;
+        timeToAdd = 0;
+        timer.innerText = timerNumber.toFixed(2);
         if (timerNumber <= 0) {
             timer.innerText = "0.00";
             disableButtons();
@@ -273,11 +306,29 @@ function getFeedback(percentage) {
     }
 }
 
+function capitalize(str) {
+  if (typeof str !== 'string' || str.length === 0) {
+    return '';
+  }
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 async function startQuiz() {
     const questions = await questionArray;
+    const metadata = await quizMetadata;
     maxPoints = questions.length;
 
+    introQuizName.innerText = metadata.name;
+    introQuizDifficulty.innerText = capitalize(metadata.difficulty);
+
     introAudio.play();
+    await wait(1000);
+    introScreen.classList.add("hidden");
+    await wait(1000);
+    introScreen.style.display = "none";
+    await wait(1000);
+    quizScreen.style.display = "flex";
+
     for (const questionIndex in questions) {
         console.log("Running ", questionIndex);
         document.title = `Quiz - Spørsmål ${parseInt(questionIndex) + 1}`;

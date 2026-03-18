@@ -186,11 +186,12 @@
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket land er dette? 🇪🇷",
+            "questionText": "Hvilket land er dette? 🇧🇦",
             "options": [
-              "Eritrea",
-              "Ecuador",
-              "El Salvador"
+              "Bosnia og Hercegovina",
+              "Bulgaria",
+              "Hviterussland",
+              "Albania"
             ],
             "answer_index": 0
           },
@@ -199,16 +200,18 @@
             "options": [
               "Finland",
               "Sverige",
-              "Falklandsøyene"
+              "Falklandsøyene",
+              "Norge"
             ],
             "answer_index": 0
           },
           {
-            "questionText": "Hvilket land er dette? 🇿🇲",
+            "questionText": "Hvilket land er dette? 🇲🇩",
             "options": [
-              "Zambia",
-              "Zimbabwe",
-              "Zaire"
+              "Moldova",
+              "Montenegro",
+              "Makedonia",
+              "Malta"
             ],
             "answer_index": 0
           },
@@ -217,7 +220,8 @@
             "options": [
               "Somalia",
               "Salomonøyene",
-              "Samoa"
+              "Samoa",
+              "Sudan"
             ],
             "answer_index": 0
           }

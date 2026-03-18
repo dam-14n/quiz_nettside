@@ -14,6 +14,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25vw;
+    margin: auto;
 }
 
 .quiz-list-item {
@@ -21,7 +23,7 @@ main {
     flex-direction: column;
     justify-content: center;
     margin: 10px 0;
-    width: 25vw;
+    width: 100%;
 }
 
 .category-quizzes-dropdown {
@@ -134,4 +136,50 @@ main {
 .quiz-list-item.expanded>.category-name>span {
     transform: rotate(-180deg);
     transition: 0.2s ease-out;
+}
+
+#random-quiz-div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 100%;
+}
+
+#difficulty-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+#difficulty-filter > button {
+    flex-grow: 1;
+    flex-basis: 0;
+
+    border-radius: 10px;
+    background-color: coral;
+}
+
+#difficulty-filter > .checked-button {
+    background-color: palegreen;
+}
+
+#random-quiz {
+    font-size: 1rem;
+    font-weight: bold;
+
+    padding: 15px 50px;
+    margin-top: 10px;
+
+    border: 3px solid white;
+    border-radius: 10px;
+
+    background-color: rgb(36, 0, 77);
+    color: white;
+}
+
+#random-quiz:hover {
+    background-color: rgb(54, 45, 65);
 }

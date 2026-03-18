@@ -4,6 +4,7 @@ import {
   getQuizQuestionsBySlug,
   getQuestionAnswerBySlug,
   removeHalf,
+  getQuizMetaBySlug,
 } from "../services/quizService.js";
 
 function respondStringified<Args extends unknown[], R>(
@@ -65,9 +66,20 @@ function removeHalfHandler(req: Request, res: Response) {
   respondStringified(res, removeHalf, questionSlug as string);
 }
 
+function getQuizMetaBySlugHandler(req: Request, res: Response) {
+  const quizSlug = req.params.quizSlug;
+  if (!quizSlug) {
+    res.status(400).send("Missing slug");
+    return;
+  }
+  console.log(`Returning quiz metadata for ${quizSlug}`);
+  respondStringified(res, getQuizMetaBySlug, quizSlug as string);
+}
+
 export {
   getCategoryListHandler,
   getQuizQuestionsBySlugHandler,
   getQuestionAnswerHandler,
   removeHalfHandler,
+  getQuizMetaBySlugHandler,
 };

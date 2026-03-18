@@ -98,6 +98,7 @@ main > * {
     justify-content: center;
     align-items: center;
     margin-top: 22px;
+    gap: 40px;
 }
 
 #cheats > button {
@@ -150,7 +151,7 @@ main > * {
     border-radius: 10px;
 
     background-color: rgb(36, 0, 77);
-    box-shadow: 5 5 black;
+    box-shadow: 5px 5px black;
     color: white;
 }
 
@@ -165,12 +166,25 @@ main > * {
 #feedback {
     font-style: italic;
 }
-/* 
+
+#intro-screen.hidden {
+    opacity: 0;
+    transition: 1s ease-out;
+}
+
+#quiz-name {
+    margin: 0;
+}
+
+#quiz-difficulty {
+    margin: 5px;
+    font-weight: normal;
+}
+
 #question-screen {
     display: none;
 }
 
-
-#end-screen {
+/* #end-screen {
     display: block;
 } */

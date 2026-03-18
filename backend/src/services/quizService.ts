@@ -27,6 +27,8 @@ type CategoryList = {
   };
 };
 
+type QuizMeta = Pick<Quiz, "name" | "difficulty">;
+
 // Return this when client asks for list of avaiable quizzes
 let categoryQuizzes: CategoryList = {};
 
@@ -114,11 +116,20 @@ function removeHalf(questionSlug: string): number[] | undefined {
   return incorrectIndexes;
 }
 
-removeHalf("mat-og-drikke-1-q1");
+function getQuizMetaBySlug(quizSlug: string): QuizMeta | undefined {
+  const quiz = slugToQuizMap.get(quizSlug);
+  if (quiz) {
+    return {
+      name: quiz.name,
+      difficulty: quiz.difficulty,
+    };
+  }
+}
 
 export {
   getCategoryList,
   getQuizQuestionsBySlug,
   getQuestionAnswerBySlug,
   removeHalf,
+  getQuizMetaBySlug,
 };
