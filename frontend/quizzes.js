@@ -334,8 +334,22 @@ async function startQuiz() {
         document.title = `Quiz - Spørsmål ${parseInt(questionIndex) + 1}`;
         await runQuestion(parseInt(questionIndex));
         answerPicked = false;
-        console.log(`Loading next question: ${parseInt(questionIndex) + 1}`);
+        console.log(`Next question: ${parseInt(questionIndex) + 1}`);
     }
+
+    const playedQuizzes = JSON.parse(sessionStorage.getItem("playedQuizzes")) ?? {};
+
+     // Save played quiz to sessionStorage
+    const playedQuizzesArray = playedQuizzes[metadata.difficulty];
+    if (playedQuizzesArray) {
+        if (!playedQuizzesArray.includes(quizSlug)) {
+            playedQuizzesArray.push(quizSlug);
+        }
+    } else {
+        playedQuizzes[metadata.difficulty] = [];
+        playedQuizzes[metadata.difficulty].push(quizSlug);
+    }
+    sessionStorage.setItem("playedQuizzes", JSON.stringify(playedQuizzes));
 
     document.title = "Quiz - Resultat"
     const finalPercentage = totalPoints / maxPoints;

@@ -29,7 +29,7 @@ function capitalize(str) {
 let quizSlugs = {}
 // Difficulties "chose random" will pick from
 // Easy and medium are enabled by default
-let enabledDifficulties = ["lett", "middels"];
+let enabledDifficulties = JSON.parse(sessionStorage.getItem("enabledDifficulties")) ?? ["lett", "middels"];
 
 const quizList = document.getElementById("quiz-list");
 const filterButtons = document.getElementById("difficulty-filter");
@@ -135,12 +135,53 @@ async function loadCategories() {
 }
 
 function playRandomQuiz() {
-    let avaiableQuizzes = [];
-    for (difficulty of enabledDifficulties) {
-        avaiableQuizzes = avaiableQuizzes.concat(quizSlugs[difficulty]);
+    if (enabledDifficulties.length < 1) {
+        return;
     }
-    const pickedQuizSlug = avaiableQuizzes[Math.floor(Math.random() * avaiableQuizzes.length)];
-    window.location.href = `/frontend/quizzes.html?quiz=${pickedQuizSlug}`;
+
+    let avaiableQuizzes = [];
+    const playedQuizzes = JSON.parse(sessionStorage.getItem("playedQuizzes")) ?? {};
+
+    // Check if all avaiable quizzes have been played
+    enabledDifficulties.forEach((difficulty) => {
+        // If all quizzes within a difficulty have been played, 
+        // allow them to be played again
+        if (playedQuizzes[difficulty] && playedQuizzes[difficulty].length >= quizSlugs[difficulty].length) {
+            playedQuizzes[difficulty] = [];
+            console.log("Resetting", difficulty, "as all quizzes have been played");
+            sessionStorage.setItem("playedQuizzes", JSON.stringify(playedQuizzes));
+        }
+    });
+    let excludedSlugs = [];
+    for (difficulty of enabledDifficulties) {
+        // Create array of [quizSlug, difficulty][]
+        const avaiableQuizzesArray = [];
+        quizSlugs[difficulty].forEach(slug => {
+            avaiableQuizzesArray.push({slug: slug, difficulty: difficulty});
+        });
+        avaiableQuizzes = avaiableQuizzes.concat(avaiableQuizzesArray);
+
+        if (playedQuizzes[difficulty]) {
+            excludedSlugs = excludedSlugs.concat(playedQuizzes[difficulty]);
+            console.log("Added", playedQuizzes[difficulty].length, difficulty, "quizzes to exclude list")
+        }
+    }
+    console.log("Excluded quizzes:", excludedSlugs);
+    // Remove played quizzes
+    if (excludedSlugs.length > 0) {
+        avaiableQuizzes = avaiableQuizzes.filter((item) => {
+            if (excludedSlugs.includes(item.slug)) {
+                return false;
+            }
+            return true;
+        })
+    }
+    console.log("Picking from:", avaiableQuizzes);
+    const pickedQuiz = avaiableQuizzes[Math.floor(Math.random() * avaiableQuizzes.length)];
+    console.log("Picked", pickedQuiz.slug)
+    // Save picked difficulties
+    sessionStorage.setItem("enabledDifficulties", JSON.stringify(enabledDifficulties));
+    window.location.href = `/frontend/quizzes.html?quiz=${pickedQuiz.slug}`;
 }
 
 randomQuizButton.addEventListener("click", playRandomQuiz);
