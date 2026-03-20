@@ -813,6 +813,62 @@
             "answer_index": 0
           }
         ]
+      },
+      {
+        "name": "Gjett språket 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Buenos días",
+            "options": [
+              "spansk",
+              "fransk",
+              "italiensk",
+              "portugisisk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Buongiorno",
+            "options": [
+              "italiensk",
+              "spansk",
+              "rumensk",
+              "fransk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Merhaba",
+            "options": [
+              "tyrkisk",
+              "arabisk",
+              "urdu",
+              "farsi"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Dzień dobry",
+            "options": [
+              "polsk",
+              "tsjekkisk",
+              "slovakisk",
+              "ungarsk"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "감사합니다",
+            "options": [
+              "koreansk",
+              "japansk",
+              "kinesisk",
+              "vietnamesisk"
+            ],
+            "answer_index": 0
+          }
+        ]
       }
     ]
   },
@@ -3294,6 +3350,62 @@
             "answer_index": 0
           }
         ]
+      },
+      {
+        "name": "Programmering 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hva står forkortelsen API vanligvis for?",
+            "options": [
+              "Application Programming Interface",
+              "Automated Program Integration",
+              "Advanced Protocol Index",
+              "Applied Process Instruction"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva brukes Git primært til?",
+            "options": [
+              "Versjonskontroll av kode",
+              "Å kompilere JavaScript",
+              "Å designe brukergrensesnitt",
+              "Å hoste databaser"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva gjør nøkkelordet return i en funksjon?",
+            "options": [
+              "Sender en verdi tilbake fra funksjonen",
+              "Starter en ny løkke",
+              "Importerer en modul",
+              "Sletter variabler"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hva menes vanligvis med en bug i programmering?",
+            "options": [
+              "En feil i koden",
+              "En rask optimalisering",
+              "En designskisse",
+              "Et ferdig testresultat"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvilket symbol starter en énlinje-kommentar i JavaScript?",
+            "options": [
+              "//",
+              "<!--",
+              "##",
+              "**"
+            ],
+            "answer_index": 0
+          }
+        ]
       }
     ]
   },
@@ -3476,6 +3588,222 @@
               "Supercalifragilisticexpialidocious",
               "Hippopotomonstrosesquippedaliofobi",
               "Floccinaucinihilipilifisering"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "hvem-sa-det": {
+    "title": "Hvem sa det",
+    "description": "Gjenkjenn kjente sitater og hvem som sa dem.",
+    "quizzes": [
+      {
+        "name": "Hvem sa det 1",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvem sa: \"I have a dream\"?",
+            "options": [
+              "Martin Luther King Jr.",
+              "Nelson Mandela",
+              "Barack Obama",
+              "Malcolm X"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sa: \"Stay hungry, stay foolish\"?",
+            "options": [
+              "Steve Jobs",
+              "Bill Gates",
+              "Elon Musk",
+              "Mark Zuckerberg"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sa: \"The only thing we have to fear is fear itself\"?",
+            "options": [
+              "Franklin D. Roosevelt",
+              "Winston Churchill",
+              "John F. Kennedy",
+              "Theodore Roosevelt"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sa: \"That's one small step for man, one giant leap for mankind\"?",
+            "options": [
+              "Neil Armstrong",
+              "Buzz Aldrin",
+              "Yuri Gagarin",
+              "John Glenn"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sa: \"Jeg tenker, altså er jeg\"?",
+            "options": [
+              "Rene Descartes",
+              "Sokrates",
+              "Aristoteles",
+              "Platon"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Hvem sa det 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Hvem sier: \"I'll be back\"?",
+            "options": [
+              "Terminator",
+              "Rocky Balboa",
+              "Rambo",
+              "John Wick"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sier: \"Why so serious?\"?",
+            "options": [
+              "Jokeren",
+              "Batman",
+              "Harley Quinn",
+              "Bane"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sier: \"Winter is coming\"?",
+            "options": [
+              "Ned Stark",
+              "Jon Snow",
+              "Tyrion Lannister",
+              "Daenerys Targaryen"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sier: \"I am Iron Man\"?",
+            "options": [
+              "Tony Stark",
+              "Steve Rogers",
+              "Bruce Banner",
+              "Thor"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Hvem sier: \"Hakuna Matata\" i Lovenes konge?",
+            "options": [
+              "Timon og Pumbaa",
+              "Simba",
+              "Mufasa",
+              "Scar"
+            ],
+            "answer_index": 0
+          }
+        ]
+      }
+    ]
+  },
+  "battle-quiz": {
+    "title": "Battle-quiz",
+    "description": "Hvem vinner duellen? Sammenlign to ting og velg riktig vinner.",
+    "quizzes": [
+      {
+        "name": "Battle-quiz 1",
+        "difficulty": "lett",
+        "questions": [
+          {
+            "questionText": "Battle: Hvem er raskest på land, gepard eller løve?",
+            "options": [
+              "Gepard",
+              "Løve"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hvilket land er størst i areal, Canada eller Kina?",
+            "options": [
+              "Canada",
+              "Kina"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hvilken planet er størst, Saturn eller Jupiter?",
+            "options": [
+              "Jupiter",
+              "Saturn"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hvem lever som regel lengst, hund eller katt?",
+            "options": [
+              "Katt",
+              "Hund"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hvilket hav er størst, Atlanterhavet eller Stillehavet?",
+            "options": [
+              "Stillehavet",
+              "Atlanterhavet"
+            ],
+            "answer_index": 0
+          }
+        ]
+      },
+      {
+        "name": "Battle-quiz 2",
+        "difficulty": "middels",
+        "questions": [
+          {
+            "questionText": "Battle: Hva ble lansert først, PlayStation eller Xbox?",
+            "options": [
+              "PlayStation",
+              "Xbox"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hva kom først, YouTube eller TikTok?",
+            "options": [
+              "YouTube",
+              "TikTok"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hvilket land har flest innbyggere, USA eller Indonesia?",
+            "options": [
+              "USA",
+              "Indonesia"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hva er høyest, Mount Everest eller K2?",
+            "options": [
+              "Mount Everest",
+              "K2"
+            ],
+            "answer_index": 0
+          },
+          {
+            "questionText": "Battle: Hvem har høyest toppfart, grå ulv eller gepard?",
+            "options": [
+              "Gepard",
+              "Grå ulv"
             ],
             "answer_index": 0
           }
